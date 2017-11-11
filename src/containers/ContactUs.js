@@ -7,7 +7,6 @@ class Banner extends Component {
         <div className="contactUs-overlay">
           <div className="contactUs-text-container">
             <p>Contact Us</p>
-            <p>Please fill out your information</p>
             <form action="">
               <fieldset className="fieldset">
                 Full name:<br />
@@ -20,7 +19,7 @@ class Banner extends Component {
                 <input className="input-fields" type="text" name="subject" />
                 <br />
                 Message:<br />
-                <textarea className="input-area" rows="12" />
+                <textarea className="input-area" rows="8" />
                 <br /><br />
                 <input className="submit-btn" type="submit" value="Submit" />
               </fieldset>

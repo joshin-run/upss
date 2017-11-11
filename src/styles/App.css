@@ -141,16 +141,17 @@
   font-family: "Lato Hairline", sans-serif;
   font-weight: lighter;
   color: #fff;
-  z-index: 200; }
+  z-index: 200;
+  margin-bottom: 20px; }
   .contactUs-text-container p:nth-child(1) {
     font-size: 3.15rem;
-    margin-bottom: 7px; }
+    margin-bottom: 15px; }
   .contactUs-text-container p:nth-child(2) {
     font-size: 0.9rem;
     font-weight: light;
-    margin-bottom: 40px; }
+    margin-bottom: 10px; }
   .contactUs-text-container .fieldset {
-    padding: 50px;
+    padding: 25px;
     width: 50vw;
     border: 1px solid rgba(255, 255, 255, 0.5); }
     .contactUs-text-container .fieldset .input-fields {
@@ -162,14 +163,12 @@
       height: 25px;
       margin-top: 4px; }
     .contactUs-text-container .fieldset .input-area {
-      margin-bottom: 20px;
       background-color: rgba(255, 255, 255, 0.2);
       border: 1px solid #fff;
       border-radius: 2px;
       width: 100%;
       margin-top: 4px; }
     .contactUs-text-container .fieldset .submit-btn {
-      margin-bottom: 20px;
       background-color: rgba(255, 255, 255, 0.8);
       border: 1px solid #fff;
       border-radius: 2px;
