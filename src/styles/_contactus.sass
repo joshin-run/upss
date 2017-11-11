@@ -1,4 +1,4 @@
-.contactus-wrapper
+.contactUs-wrapper
   display: flex
   flex-direction: row
   flex-wrap: wrap
@@ -11,7 +11,77 @@
   background-position: center center
   background-repeat: no-repeat
   background-size: cover
-  padding: 20px 7px
 
 .contactUs-overlay
-  
+  display: flex
+  flex-direction: column
+  flex-wrap: wrap
+  justify-content: center
+  align-items: center
+  position: absolute
+  z-index: 10
+  height: inherit
+  width: 100vw
+  background-color: rgba(219,117,153,0.8)
+  // background-image: linear-gradient(to bottom right,rgba(255,255,127,0.8),rgba(254,1,154,0.8))
+
+.contactUs-text-container
+  display: flex
+  flex-direction: column
+  flex-wrap: wrap
+  justify-content: center
+  align-items: left
+  font-family: 'Lato Hairline', sans-serif
+  // font-family: Helvetica Neue, sans-serif
+  font-weight: lighter
+  color: #fff
+  z-index: 200
+  // font-family: 'Gill Sans'
+  // position: relative
+  // align-self: center
+
+  p:nth-child(1)
+    font-size: 3.15rem
+    margin-bottom: 7px
+
+  p:nth-child(2)
+    font-size: .90rem
+    font-weight: light
+    margin-bottom: 40px
+
+  .fieldset
+    padding: 50px
+    width: 50vw
+    border: 1px solid rgba(255,255,255,0.5)
+
+    .input-fields
+      margin-bottom: 20px
+      background-color: rgba(255,255,255,0.2)
+      border: 1px solid #fff
+      border-radius: 2px
+      width: 40%
+      height: 25px
+      margin-top: 4px
+
+    .input-area
+      margin-bottom: 20px
+      background-color: rgba(255,255,255,0.2)
+      border: 1px solid #fff
+      border-radius: 2px
+      width: 100%
+      margin-top: 4px
+
+    .submit-btn
+      margin-bottom: 20px
+      background-color: rgba(255,255,255,0.8)
+      border: 1px solid #fff
+      border-radius: 2px
+      width: auto
+      height: auto
+      padding: 7px
+      font-family: 'Lato', sans-serif
+      color: rgb(219,117,153)
+
+      &:hover
+        background-color: rgba(255,255,255,0.2)
+        color: #fff
