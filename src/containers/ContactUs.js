@@ -6,21 +6,17 @@ class Banner extends Component {
       <div className="contactUs-wrapper">
         <div className="contactUs-overlay">
           <div className="contactUs-text-container">
-            <p>Contact Us</p>
+            <p className="title">Contact Us</p>
             <form action="">
               <fieldset className="fieldset">
-                Full name:<br />
+                <p className="form-label">Full name:</p>
                 <input className="input-fields" type="text" name="fullname" />
-                <br />
-                Email:<br />
+                <p className="form-label">Email:</p>
                 <input className="input-fields" type="text" name="email" />
-                <br />
-                Subject:<br />
+                <p className="form-label">Subject:</p>
                 <input className="input-fields" type="text" name="subject" />
-                <br />
-                Message:<br />
-                <textarea className="input-area" rows="8" />
-                <br /><br />
+                <p className="form-label">Message:</p>
+                <textarea className="input-area" rows="8" />                  
                 <input className="submit-btn" type="submit" value="Submit" />
               </fieldset>
             </form>
