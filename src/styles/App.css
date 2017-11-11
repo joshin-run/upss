@@ -1,0 +1,590 @@
+.banner-image {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  background-image: url(../images/girl-in-field.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0; }
+
+.banner-gradient {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 10;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to bottom right, rgba(255, 255, 127, 0.8), rgba(254, 1, 154, 0.8)); }
+
+.banner-text-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato Hairline", sans-serif;
+  font-weight: lighter;
+  color: #fff;
+  z-index: 200; }
+  .banner-text-container p:nth-child(1) {
+    font-size: 1.15rem;
+    margin-bottom: 7px; }
+  .banner-text-container p:nth-child(2) {
+    font-size: 0.9rem;
+    font-weight: light; }
+    .banner-text-container p:nth-child(2) span {
+      font-family: "Lato Bold", sans-serif; }
+
+@media only screen and (min-width: 481px) {
+  .banner-text-container p:nth-child(1) {
+    font-size: 2.75rem; }
+  .banner-text-container p:nth-child(2) {
+    font-size: 2rem; } }
+@media only screen and (min-width: 769px) {
+  .banner-text-container p:nth-child(1) {
+    font-size: 3.75rem; }
+  .banner-text-container p:nth-child(2) {
+    font-size: 2.75rem; } }
+.bannerbutton {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+  padding: 7px 20px 7px 20px;
+  font-size: 0.5em;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  z-index: 900;
+  transition: 0.35s ease-in-out; }
+  .bannerbutton:hover {
+    background-color: #fff;
+    color: #fe019a; }
+
+@media only screen and (min-width: 481px) {
+  .bannerbutton {
+    padding: 17px 30px 17px 30px;
+    font-size: 0.85em;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid #fff; } }
+.page-header {
+  font-size: 2.5em;
+  font-family: DIN Condensed, sans-serif;
+  color: #000;
+  border-bottom: 3px solid #0F8EE3;
+  line-height: 35px;
+  margin-bottom: 10px; }
+
+.header-sub-title {
+  font-size: 1.15em;
+  font-family: Helvetica Neue, sans-serif;
+  text-align: center;
+  color: #000;
+  margin: 0; }
+
+.content {
+  font-size: 0.9em;
+  font-family: Helvetica Neue, sans-serif;
+  text-align: center;
+  text-decoration: none !important;
+  color: #5D76D8;
+  margin-bottom: 20px;
+  cursor: pointer; }
+
+.contactus-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  height: 85vh;
+  width: 100vw;
+  background-image: url(../images/bryce-canyon.jpg);
+  z-index: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 7px; }
+
+.featured-members-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100vw;
+  padding: 50px 10px 50px 10px;
+  background-color: #EFEFEF; }
+
+.member-card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 120px;
+  width: 280px;
+  background-color: #FFFFFF;
+  padding: 5px;
+  box-shadow: -1px 2px 8px rgba(0, 0, 0, 0.4);
+  margin-top: 15px;
+  padding: 0;
+  padding: 13px;
+  font-family: Helvetica Neue, sans-serif;
+  color: #45799B; }
+  .member-card .member-pic {
+    height: 100%;
+    width: auto; }
+  .member-card .contact-info-container {
+    height: auto;
+    width: auto;
+    margin-left: 12px; }
+  .member-card .member-name {
+    font-size: 0.87em;
+    font-weight: bold; }
+  .member-card .member-address {
+    font-size: 0.87em;
+    font-weight: normal; }
+  .member-card .member-phone-number {
+    font-size: 0.87em;
+    font-weight: bold; }
+  .member-card .member-site {
+    color: #5D76D8;
+    font-size: 0.8em; }
+
+.footer-wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100vw; }
+
+.footer-info-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #DB7599;
+  padding: 30px;
+  width: 100vw; }
+
+.footer-info {
+  font-size: 0.65em;
+  font-family: Helvetica Neue, sans-serif;
+  color: #fff; }
+  .footer-info p:nth-child(1) {
+    font-size: 1.25em; }
+
+.footer-media {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.footer-copy {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #E3DAA0;
+  width: 100vw; }
+
+.footer-copy-text {
+  font-size: 0.65em;
+  font-family: Helvetica Neue, sans-serif;
+  padding: 25px 0 25px 0;
+  color: #fe019a;
+  font-weight: bold; }
+
+.copy-text {
+  text-align: center; }
+
+.society-text {
+  text-align: center; }
+
+.media {
+  height: 25px;
+  width: auto;
+  margin: 5px;
+  background-color: #DB7599; }
+
+/*** Chivo ** */
+@font-face {
+  font-family: "Chivo";
+  src: url("../fonts/Chivo/Chivo-Regular.ttf"); }
+@font-face {
+  font-family: "Chivo Light";
+  src: url("../fonts/Chivo/Chivo-Light.ttf"); }
+@font-face {
+  font-family: "Chivo Bold";
+  src: url("../fonts/Chivo/Chivo-Bold.ttf"); }
+/*** Lato ** */
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Regular.ttf"); }
+@font-face {
+  font-family: "Lato Hairline";
+  src: url("../fonts/Lato/Lato-Hairline.ttf"); }
+@font-face {
+  font-family: "Lato Bold";
+  src: url("../fonts/Lato/Lato-Bold.ttf"); }
+/*** Montserrat ** */
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat-Regular.otf"); }
+@font-face {
+  font-family: "Montserrat Light";
+  src: url("../fonts/Montserrat/Montserrat-Light.otf"); }
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url("../fonts/Montserrat/Montserrat-Bold.otf"); }
+/*** Montserrat Alternatives ** */
+@font-face {
+  font-family: "Montserrat Alternates";
+  src: url("../fonts/MontserratAlternates/MontserratAlternates-Regular.otf"); }
+@font-face {
+  font-family: "Montserrat Alternates Light";
+  src: url("../fonts/MontserratAlternates/MontserratAlternates-Light.otf"); }
+@font-face {
+  font-family: "Montserrat Alternates Bold";
+  src: url("../fonts/MontserratAlternates/MontserratAlternates-Bold.otf"); }
+/*** Open Sans ** */
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/Open_Sans/OpenSans-Regular.ttf"); }
+@font-face {
+  font-family: "Open Sans Light";
+  src: url("../fonts/Open_Sans/OpenSans-Light.ttf"); }
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url("../fonts/Open_Sans/OpenSans-Bold.ttf"); }
+/*** Roboto ** */
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf"); }
+@font-face {
+  font-family: "Roboto Light";
+  src: url("../fonts/Roboto/Roboto-Light.ttf"); }
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("../fonts/Roboto/Roboto-Bold.ttf"); }
+/*** Rozha One ** */
+@font-face {
+  font-family: "Rozha One";
+  src: url("../fonts/Rozha_One/RozhaOne-Regular.ttf"); }
+/*** Rubik ** */
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/Rubik/Rubik-Regular.ttf"); }
+@font-face {
+  font-family: "Rubik Light";
+  src: url("../fonts/Rubik/Rubik-Light.ttf"); }
+@font-face {
+  font-family: "Rubik Bold";
+  src: url("../fonts/Rubik/Rubik-Bold.ttf"); }
+/*** Tenor Sans ** */
+@font-face {
+  font-family: "Tenor Sans";
+  src: url("../fonts/Tenor_Sans/TenorSans-Regular.ttf"); }
+.header-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start; }
+
+.header-title {
+  font-family: DIN Condensed, sans-serif;
+  font-size: 10vw;
+  color: #fff; }
+
+.info-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100vw;
+  padding: 30px 0px 50px 0px;
+  background-color: #fff; }
+
+.our-mission-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  margin: 0 30px 30px 0; }
+
+.upss-membership-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+  margin: 0 0 30px 30px; }
+
+.asps-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  margin-right: 0 30px 30px 0; }
+
+.info-section-title {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Helvetica Neue, sans-serif;
+  font-weight: bold;
+  margin: 15px 0 15px 0; }
+
+.our-mission-image {
+  height: 100%;
+  width: auto; }
+
+.our-mission-content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  padding-left: 15px;
+  font-size: 0.75em;
+  font-family: Helvetica Neue, sans-serif; }
+
+.upss-logo-text-info {
+  height: 80px;
+  width: auto;
+  margin-bottom: 16px; }
+
+.our-mission-text span {
+  font-weight: bold; }
+
+.upss-membership-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  padding-right: 15px;
+  font-family: Helvetica Neue, sans-serif; }
+
+.upss-membership-text {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+  width: auto;
+  font-size: 0.75em;
+  font-family: Helvetica Neue, sans-serif;
+  padding-right: 16px; }
+
+.toon-doctor-image {
+  height: 200px;
+  width: auto;
+  margin-right: 16px; }
+
+.asps-image {
+  height: 80%;
+  width: auto; }
+
+.asps-content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  padding-left: 15px;
+  font-size: 0.75em;
+  font-family: Helvetica Neue, sans-serif; }
+
+.asps-logo {
+  height: 80px;
+  width: auto;
+  margin-bottom: 16px; }
+
+.learnmore-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100vw;
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 50px; }
+
+.learnmorebutton {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+  border-radius: 3px;
+  padding: 15px 20px 15px 20px;
+  font-size: 1.25em;
+  font-weight: bold;
+  font-family: DIN Condensed, sans-serif;
+  letter-spacing: 2px;
+  color: #fff;
+  background-color: #5D76D8;
+  cursor: pointer; }
+  .learnmorebutton:hover {
+    background-color: #95989A; }
+  .learnmorebutton p {
+    margin: 0;
+    margin: -1px 0 -9px 0;
+    padding: 0;
+    line-height: normal; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.link {
+  color: #5D76D8; }
+
+.logo-img {
+  height: 45px;
+  margin-top: 3px;
+  padding: 0; }
+
+.logo-text-wrapper {
+  margin-bottom: 10px; }
+
+.upss-logo-text {
+  height: 105px;
+  width: auto;
+  margin: 20px; }
+
+.asps-logo-text {
+  height: 105px;
+  width: auto;
+  margin: 20px; }
+
+@media only screen and (min-width: 481px) {
+  .logo-img {
+    height: 55px; } }
+@media only screen and (min-width: 769px) {
+  .logo-img {
+    height: 65px; } }
+@media only screen and (min-width: 1450px) {
+  .logo-img {
+    height: 75px; } }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #fff; }
+
+.navbar-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100vw;
+  background: transparent;
+  padding: 15px 20px 0px 20px;
+  z-index: 999;
+  align-self: flex-start;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0; }
+  .navbar-wrapper .navbar-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 100vw; }
+
+@media only screen and (min-width: 481px) {
+  .navbar-wrapper {
+    padding: 30px 40px 0 40px; }
+    .navbar-wrapper .navbar-container {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      height: auto; } }
+@media only screen and (min-width: 769px) {
+  .navbar-wrapper {
+    padding: 40px 55px 0 55px; } }
+@media only screen and (min-width: 1450px) {
+  .navbar-wrapper .navbar-container {
+    width: 75vw; } }
+.hamburger-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; }
+  .hamburger-container .icon-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    padding: 5px 6px 5px 6px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    transition: 0.4s ease-in-out; }
+    .hamburger-container .icon-container:hover {
+      border: 2px solid #fe019a; }
+
+.hamburger-menu {
+  font-family: "Chivo";
+  color: #fff;
+  font-size: 0.5em; }
+
+.hamburger-icon-white {
+  height: 10px;
+  width: auto; }
+
+.hamburger-text-icon {
+  color: #fff;
+  font-size: 0.75em;
+  line-height: 1; }
+
+@media only screen and (min-width: 481px) {
+  .hamburger-container .icon-container {
+    border: 3px solid #fff; }
+    .hamburger-container .icon-container:hover {
+      border: 3px solid #fe019a; }
+
+  .hamburger-text-icon {
+    font-size: 1.5em; }
+
+  .hamburger-menu {
+    font-family: "Chivo";
+    color: #fff;
+    font-size: 0.75em; } }
+.whitebar-wrapper {
+  height: 150px;
+  width: 100vw; }
+
+/*# sourceMappingURL=App.css.map */

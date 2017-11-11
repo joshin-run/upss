@@ -1,0 +1,77 @@
+.hamburger-container
+  display: flex
+  flex-flow: column nowrap
+  justify-content: center
+  align-items: center
+  cursor: pointer
+
+  .icon-container
+    display: flex
+    flex-flow: row nowrap
+    justify-content: center
+    align-items: center
+    border: 2px solid #fff
+    padding: 5px 6px 5px 6px
+    margin-bottom: 5px
+    border-radius: 50%
+    transition: .4s ease-in-out
+
+    &:hover
+      border: 2px solid rgb(254,1,154)
+
+.hamburger-menu
+  font-family: 'Chivo'
+  color: #fff
+  font-size: .5em
+
+.hamburger-icon-white
+  height: 10px
+  width: auto
+
+.hamburger-text-icon
+  color: #fff
+  font-size: .75em
+  line-height: 1
+
+@media only screen and (min-width: 481px)
+
+  .hamburger-container
+
+    .icon-container
+      border: 3px solid #fff
+
+      &:hover
+        border: 3px solid rgb(254,1,154)
+
+  .hamburger-text-icon
+    font-size: 1.5em
+
+  .hamburger-menu
+    font-family: 'Chivo'
+    color: #fff
+    font-size: .75em
+// .hamburger-menu
+//   font-family: sans-serif
+//   color: #fff
+//   font-size: .75em
+//   font-weight: lighter
+//
+// .hamburger-icon-white
+//   height: 20px
+//   width: auto
+
+@media only screen and (min-width: 769px)
+
+
+
+//
+// .hamburger-menu
+//   font-family: 'Montserrat'
+//   // font-family: sans-serif
+//   color: #fff
+//   font-size: .62em
+//   font-weight: lighter
+//
+// .hamburger-icon-white
+//   height: 20px
+//   width: auto
