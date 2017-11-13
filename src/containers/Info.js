@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import hexigonDoc from '../images/hexigonDoc.png'
-import upssLogo from '../images/logos/upss-logo-text.png'
+import upssLogoPink from '../images/logos/upss-logo-sleek-mid-bold-pink.svg'
 import toonDoc from '../images/toon-doc.svg'
 import aspsLogo from '../images/logos/ASPS_logo_300dpi.jpg'
 import steth from '../images/steth.png'
@@ -15,7 +15,7 @@ class Info extends Component {
         <div className="our-mission-container">
           <img className="our-mission-image" src={hexigonDoc} />
           <div className="our-mission-content">
-            <img className="upss-logo-text-info"  src={upssLogo} alt="UPSS" />
+            <img className="upss-logo-pink"  src={upssLogoPink} alt="UPSS" />
             <div className="our-mission-text">
               <p><span>The Utah Plastic Surgery Society’s mission is to:</span></p><br />
               <p>Encourage the highest possible standards in the field of plastic surgery</p><br />

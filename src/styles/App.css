@@ -83,8 +83,8 @@
     font-family: "Montserrat", sans-serif;
     border: 2px solid #fff; } }
 .page-header {
-  font-size: 2.5em;
-  font-family: DIN Condensed, sans-serif;
+  font-size: 1.85em;
+  font-family: "Oxygen Bold", sans-serif;
   color: #000;
   border-bottom: 3px solid #0F8EE3;
   line-height: 35px;
@@ -92,14 +92,14 @@
 
 .header-sub-title {
   font-size: 1.15em;
-  font-family: Helvetica Neue, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   text-align: center;
   color: #000;
   margin: 0; }
 
 .content {
   font-size: 0.9em;
-  font-family: Helvetica Neue, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   text-align: center;
   text-decoration: none !important;
   color: #5D76D8;
@@ -138,12 +138,11 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  font-family: "Lato Hairline", sans-serif;
   font-weight: lighter;
   z-index: 200; }
   .contactUs-text-container .title {
     font-size: 1.5rem;
-    font-family: "Lato", sans-serif;
+    font-family: "Oxygen", sans-serif;
     margin-bottom: 8px;
     width: 100vw;
     text-align: center; }
@@ -155,7 +154,7 @@
     border-left: none; }
     .contactUs-text-container .fieldset .form-label {
       font-size: 0.75em;
-      font-family: "Lato", sans-serif;
+      font-family: "Source Sans Pro", sans-serif;
       margin-bottom: 3px; }
     .contactUs-text-container .fieldset .input-fields {
       background-color: rgba(255, 255, 255, 0.2);
@@ -177,7 +176,7 @@
       width: auto;
       height: auto;
       padding: 4px;
-      font-family: "Lato", sans-serif;
+      font-family: "Source Sans Pro", sans-serif;
       color: #db7599; }
       .contactUs-text-container .fieldset .submit-btn:hover {
         background-color: rgba(255, 255, 255, 0.2);
@@ -289,7 +288,8 @@
   margin-top: 15px;
   padding: 0;
   padding: 13px;
-  font-family: Helvetica Neue, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.18;
   color: #45799B; }
   .member-card .member-pic {
     height: 100%;
@@ -323,14 +323,15 @@
   align-items: center;
   background-color: #DB7599;
   padding: 30px;
-  height: 300px;
+  height: 3 0px;
   width: 100vw; }
 
 .footer-info {
-  font-size: 0.65em;
-  font-family: Helvetica Neue, sans-serif;
+  font-size: 1em;
+  font-family: "Source Sans Pro", sans-serif;
   color: #fff; }
   .footer-info p:nth-child(1) {
+    font-family: "Oxygen", sans-serif;
     font-size: 1.25em; }
 
 .footer-media {
@@ -349,7 +350,7 @@
 
 .footer-copy-text {
   font-size: 0.65em;
-  font-family: Helvetica Neue, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   padding: 25px 0 25px 0;
   color: #fe019a;
   font-weight: bold; }
@@ -416,6 +417,16 @@
 @font-face {
   font-family: "Open Sans Bold";
   src: url("../fonts/Open_Sans/OpenSans-Bold.ttf"); }
+/*** Oxygen ** */
+@font-face {
+  font-family: "Oxygen";
+  src: url("../fonts/Oxygen/Oxygen-Regular.ttf"); }
+@font-face {
+  font-family: "Oxygen Light";
+  src: url("../fonts/Oxygen/Oxygen-Light.ttf"); }
+@font-face {
+  font-family: "Oxygen Bold";
+  src: url("../fonts/Oxygen/Oxygen-Bold.ttf"); }
 /*** Roboto ** */
 @font-face {
   font-family: "Roboto";
@@ -440,6 +451,16 @@
 @font-face {
   font-family: "Rubik Bold";
   src: url("../fonts/Rubik/Rubik-Bold.ttf"); }
+/*** Rubik ** */
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf"); }
+@font-face {
+  font-family: "Source Sans Pro Light";
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf"); }
+@font-face {
+  font-family: "Source Sans Pro Bold";
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf"); }
 /*** Tenor Sans ** */
 @font-face {
   font-family: "Tenor Sans";
@@ -481,7 +502,7 @@
   align-items: center;
   height: auto;
   width: auto;
-  margin: 0 0 30px 30px; }
+  margin: 0 0 30px 15px; }
 
 .asps-container {
   display: flex;
@@ -496,7 +517,7 @@
   width: 100%;
   text-align: center;
   font-size: 1.5em;
-  font-family: Helvetica Neue, sans-serif;
+  font-family: "Oxygen Bold", sans-serif;
   font-weight: bold;
   margin: 15px 0 15px 0; }
 
@@ -512,8 +533,8 @@
   height: auto;
   width: 100%;
   padding-left: 15px;
-  font-size: 0.75em;
-  font-family: Helvetica Neue, sans-serif; }
+  font-size: 0.85em;
+  font-family: "Source Sans Pro", sans-serif; }
 
 .upss-logo-text-info {
   height: 80px;
@@ -521,7 +542,7 @@
   margin-bottom: 16px; }
 
 .our-mission-text span {
-  font-weight: bold; }
+  font-family: "Source Sans Pro Bold", sans-serif; }
 
 .upss-membership-content {
   display: flex;
@@ -530,7 +551,7 @@
   height: auto;
   width: 100%;
   padding-right: 15px;
-  font-family: Helvetica Neue, sans-serif; }
+  font-family: "Source Sans Pro", sans-serif; }
 
 .upss-membership-text {
   display: flex;
@@ -539,9 +560,9 @@
   align-items: center;
   height: auto;
   width: auto;
-  font-size: 0.75em;
-  font-family: Helvetica Neue, sans-serif;
-  padding-right: 16px; }
+  font-size: 0.85em;
+  font-family: "Source Sans Pro", sans-serif;
+  padding-right: 15px; }
 
 .toon-doctor-image {
   height: 200px;
@@ -560,8 +581,8 @@
   height: auto;
   width: 100%;
   padding-left: 15px;
-  font-size: 0.75em;
-  font-family: Helvetica Neue, sans-serif; }
+  font-size: 0.85em;
+  font-family: "Source Sans Pro", sans-serif; }
 
 .asps-logo {
   height: 80px;
@@ -627,6 +648,11 @@ a {
   height: 105px;
   width: auto;
   margin: 20px; }
+
+.upss-logo-pink {
+  margin: 10px 30px 20px 30px;
+  height: 50px;
+  width: auto; }
 
 @media only screen and (min-width: 481px) {
   .logo-img {
