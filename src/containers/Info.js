@@ -10,21 +10,21 @@ class Info extends Component {
     return (
       <div className="info-wrapper">
         <div className="page-container">
-          <div className="our-mission-container">
-            <div className="our-mission-content">
-              <p className="info-section-title">
-              Our Mission
-              </p>
-              <img className="steth-heart" src={stethHeart} />
-              <img className="upss-logo-pink"  src={upssLogoPink} alt="UPSS" />
-              <div className="our-mission-text">
-                <p><span>The Utah Plastic Surgery Society’s mission is to:</span></p><br />
-                <p>Encourage the highest possible standards in the field of plastic surgery</p><br />
-                <p>Provide trustworthy information to prospective patients</p><br />
-                <p>Protect the public from irresponsible and unqualified practitioners</p>
-              </div>
+        <p className="info-section-title">
+        Our Mission
+        </p>
+        <div className="our-mission-container">
+          <img className="steth-heart" src={stethHeart} />
+          <div className="our-mission-content">
+            <img className="upss-logo-pink"  src={upssLogoPink} alt="UPSS" />
+            <div className="our-mission-text">
+              <p><span>The Utah Plastic Surgery Society’s mission is to:</span></p><br />
+              <p>Encourage the highest possible standards in the field of plastic surgery</p><br />
+              <p>Provide trustworthy information to prospective patients</p><br />
+              <p>Protect the public from irresponsible and unqualified practitioners</p>
             </div>
           </div>
+        </div>  
           <p className="info-section-title">
           UPSS Membership
           </p>
@@ -37,11 +37,11 @@ class Info extends Component {
               <img className="toon-doctor-image"  src={toonDoc} alt="Cartoon Male Doctor" />
             </div>
           </div>
+          <p className="info-section-title">
+          American Society of<br />
+          Plastic Surgeons
+          </p>
           <div className="asps-container">
-            <p className="info-section-title">
-            American Society of<br />
-            Plastic Surgeons
-            </p>
             <img className="doc-computer" src={docComputer} />
             <div className="asps-content">
               <img className="asps-logo" src={aspsLogo} alt="ASPS Logo" />
