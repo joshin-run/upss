@@ -478,21 +478,24 @@
 
 .info-wrapper {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  height: auto;
+  height: auto; }
+
+.page-container {
   width: 100vw;
   padding: 30px 0px 50px 0px;
-  background-color: #fff; }
+  background-color: #fff;
+  max-width: 1160px; }
 
 .our-mission-container {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: auto;
-  width: 100%;
+  width: auto;
   margin: 0 30px 30px 0; }
 
 .upss-membership-container {
@@ -535,7 +538,7 @@
 .our-mission-content {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   height: auto;
   width: 100%;
@@ -553,7 +556,7 @@
 
 .upss-membership-content {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   height: auto;
   width: 100%;
@@ -589,7 +592,7 @@
 .asps-content {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   height: auto;
   width: 100%;
@@ -639,6 +642,41 @@
 
   .info-section-title {
     margin-top: 85px; } }
+@media only screen and (min-width: 769px) {
+  .info-wrapper {
+    padding: 0px 280px 105px 280px; }
+
+  .our-mission-container {
+    align-items: center;
+    justify-content: center; }
+
+  .our-mission-content {
+    width: auto;
+    align-items: center; }
+
+  .our-mission-image2 {
+    display: block;
+    height: 350px;
+    width: auto;
+    box-shadow: 1px 2px 6px #7e7e7e; }
+
+  .asps-image2 {
+    display: block;
+    height: 350px;
+    width: auto;
+    box-shadow: 1px 2px 6px #7e7e7e; }
+
+  .toon-doctor-image {
+    height: auto;
+    width: 275px; }
+
+  #membership-info-section-title {
+    margin: 85px 0 0 0;
+    font-size: 3em; }
+
+  .info-section-title {
+    margin-top: 105px;
+    font-size: 3em; } }
 .learnmore-wrapper {
   display: flex;
   flex-flow: column wrap;
