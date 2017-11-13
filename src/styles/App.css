@@ -519,11 +519,18 @@
   font-size: 1.5em;
   font-family: "Oxygen Bold", sans-serif;
   font-weight: bold;
-  margin: 15px 0 15px 0; }
+  margin: 15px 0 35px 0; }
 
-.our-mission-image {
+.our-mission-image1 {
+  display: block;
   height: 100%;
   width: auto; }
+
+.our-mission-image2 {
+  display: none;
+  height: auto;
+  width: 193.91px;
+  margin-left: 15px; }
 
 .our-mission-content {
   display: flex;
@@ -567,10 +574,16 @@
 .toon-doctor-image {
   height: 200px;
   width: auto;
-  margin-right: 16px; }
+  margin-left: 15px; }
 
-.asps-image {
+.asps-image1 {
+  display: block;
   height: 80%;
+  width: auto; }
+
+.asps-image2 {
+  display: none;
+  height: 250px;
   width: auto; }
 
 .asps-content {
@@ -589,6 +602,43 @@
   width: auto;
   margin-bottom: 16px; }
 
+@media only screen and (min-width: 481px) {
+  .info-wrapper {
+    margin: 0;
+    padding: 0px 120px 75px 120px; }
+
+  .our-mission-content {
+    padding-left: 25px; }
+
+  .upss-membership-content {
+    width: auto; }
+
+  .asps-content {
+    padding-left: 25px; }
+
+  .our-mission-image1 {
+    display: none; }
+
+  .our-mission-image2 {
+    display: block;
+    box-shadow: 1px 2px 6px #7e7e7e; }
+
+  .asps-image1 {
+    display: none; }
+
+  .asps-image2 {
+    display: block;
+    box-shadow: 1px 2px 6px #7e7e7e; }
+
+  .toon-doctor-image {
+    height: auto;
+    width: 275px; }
+
+  #membership-info-section-title {
+    margin: 85px 0 0 0; }
+
+  .info-section-title {
+    margin-top: 85px; } }
 .learnmore-wrapper {
   display: flex;
   flex-flow: column wrap;

@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import hexigonDoc from '../images/hexigonDoc.png'
+import hexigonDocHalf from '../images/hex-docs-half.png'
 import upssLogoPink from '../images/logos/upss-logo-sleek-mid-bold-pink.svg'
 import toonDoc from '../images/toon-doc.svg'
 import aspsLogo from '../images/logos/ASPS_logo_300dpi.jpg'
 import steth from '../images/steth.png'
+import stethHalf from '../images/steth-half.png'
 
 class Info extends Component {
   render() {
@@ -13,7 +15,8 @@ class Info extends Component {
           Our Mission
         </p>
         <div className="our-mission-container">
-          <img className="our-mission-image" src={hexigonDoc} />
+          <img className="our-mission-image1" src={hexigonDoc} />
+          <img className="our-mission-image2" src={hexigonDocHalf} />
           <div className="our-mission-content">
             <img className="upss-logo-pink"  src={upssLogoPink} alt="UPSS" />
             <div className="our-mission-text">
@@ -24,7 +27,7 @@ class Info extends Component {
             </div>
           </div>
         </div>
-        <p className="info-section-title">
+        <p id="membership-info-section-title" className="info-section-title">
           UPSS Membership
         </p>
         <div className="upss-membership-container">
@@ -41,7 +44,8 @@ class Info extends Component {
          Plastic Surgeons
         </p>
         <div className="asps-container">
-          <img className="asps-image" src={steth} />
+          <img className="asps-image1" src={steth} />
+          <img className="asps-image2" src={stethHalf} />
           <div className="asps-content">
             <img className="asps-logo" src={aspsLogo} alt="ASPS Logo" />
             <div className="">
