@@ -24,7 +24,7 @@ class Info extends Component {
               <p>Protect the public from irresponsible and unqualified practitioners</p>
             </div>
           </div>
-        </div>  
+        </div>
           <p className="info-section-title">
           UPSS Membership
           </p>
