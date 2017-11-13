@@ -1,24 +1,21 @@
 import React, { Component } from 'react';
-import hexigonDoc from '../images/hexigonDoc.png'
-import hexigonDocHalf from '../images/hex-docs-half.png'
+import stethHeart from '../images/steth-heart.png'
 import upssLogoPink from '../images/logos/upss-logo-sleek-mid-bold-pink.svg'
 import toonDoc from '../images/toon-doc.svg'
 import aspsLogo from '../images/logos/ASPS_logo_300dpi.jpg'
-import steth from '../images/steth.png'
-import stethHalf from '../images/steth-half.png'
+import docComputer from '../images/doc-computer.png'
 
 class Info extends Component {
   render() {
     return (
       <div className="info-wrapper">
         <div className="page-container">
-          <p className="info-section-title">
-            Our Mission
-          </p>
           <div className="our-mission-container">
-            <img className="our-mission-image1" src={hexigonDoc} />
-            <img className="our-mission-image2" src={hexigonDocHalf} />
             <div className="our-mission-content">
+              <p className="info-section-title">
+              Our Mission
+              </p>
+              <img className="steth-heart" src={stethHeart} />
               <img className="upss-logo-pink"  src={upssLogoPink} alt="UPSS" />
               <div className="our-mission-text">
                 <p><span>The Utah Plastic Surgery Society’s mission is to:</span></p><br />
@@ -28,8 +25,8 @@ class Info extends Component {
               </div>
             </div>
           </div>
-          <p id="membership-info-section-title" className="info-section-title">
-            UPSS Membership
+          <p className="info-section-title">
+          UPSS Membership
           </p>
           <div className="upss-membership-container">
             <div className="upss-membership-content">
@@ -40,13 +37,12 @@ class Info extends Component {
               <img className="toon-doctor-image"  src={toonDoc} alt="Cartoon Male Doctor" />
             </div>
           </div>
-          <p className="info-section-title">
-           American Society of<br />
-           Plastic Surgeons
-          </p>
           <div className="asps-container">
-            <img className="asps-image1" src={steth} />
-            <img className="asps-image2" src={stethHalf} />
+            <p className="info-section-title">
+            American Society of<br />
+            Plastic Surgeons
+            </p>
+            <img className="doc-computer" src={docComputer} />
             <div className="asps-content">
               <img className="asps-logo" src={aspsLogo} alt="ASPS Logo" />
               <div className="">

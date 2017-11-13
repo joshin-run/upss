@@ -485,18 +485,18 @@
 
 .page-container {
   width: 100vw;
-  padding: 30px 0px 50px 0px;
   background-color: #fff;
+  padding: 40px 25px;
   max-width: 1160px; }
 
 .our-mission-container {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   height: auto;
   width: auto;
-  margin: 0 30px 30px 0; }
+  margin-bottom: 50px; }
 
 .upss-membership-container {
   display: flex;
@@ -505,35 +505,31 @@
   align-items: center;
   height: auto;
   width: auto;
-  margin: 0 0 30px 15px; }
+  margin-bottom: 50px; }
 
 .asps-container {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   height: auto;
-  width: 100%;
-  margin-right: 0 30px 30px 0; }
+  width: 100%; }
 
 .info-section-title {
   width: 100%;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.75em;
   font-family: "Oxygen Bold", sans-serif;
   font-weight: bold;
-  margin: 15px 0 35px 0; }
+  margin: 15px 0 15px 0; }
 
-.our-mission-image1 {
-  display: block;
-  height: 100%;
-  width: auto; }
-
-.our-mission-image2 {
-  display: none;
+.steth-heart {
   height: auto;
-  width: 193.91px;
-  margin-left: 15px; }
+  width: 100%; }
+
+.doc-computer {
+  height: auto;
+  width: 100%; }
 
 .our-mission-content {
   display: flex;
@@ -542,25 +538,23 @@
   align-items: center;
   height: auto;
   width: 100%;
-  padding-left: 15px;
-  font-size: 0.85em;
+  font-size: 0.95em;
   font-family: "Source Sans Pro", sans-serif; }
 
 .upss-logo-text-info {
   height: 80px;
-  width: auto;
-  margin-bottom: 16px; }
+  width: auto; }
 
 .our-mission-text span {
   font-family: "Source Sans Pro Bold", sans-serif; }
 
 .upss-membership-content {
   display: flex;
+  flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
   height: auto;
   width: 100%;
-  padding-right: 15px;
   font-family: "Source Sans Pro", sans-serif; }
 
 .upss-membership-text {
@@ -570,14 +564,13 @@
   align-items: center;
   height: auto;
   width: auto;
-  font-size: 0.85em;
+  font-size: 0.95em;
   font-family: "Source Sans Pro", sans-serif;
-  padding-right: 15px; }
+  margin-right: 20px; }
 
 .toon-doctor-image {
   height: 200px;
-  width: auto;
-  margin-left: 15px; }
+  width: auto; }
 
 .asps-image1 {
   display: block;
@@ -596,52 +589,53 @@
   align-items: center;
   height: auto;
   width: 100%;
-  padding-left: 15px;
-  font-size: 0.85em;
+  font-size: 0.95em;
   font-family: "Source Sans Pro", sans-serif; }
-
-.asps-logo {
-  height: 80px;
-  width: auto;
-  margin-bottom: 16px; }
 
 @media only screen and (min-width: 481px) {
   .info-wrapper {
-    margin: 0;
-    padding: 0px 120px 75px 120px; }
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: auto; }
+
+  .page-container {
+    width: 100vw;
+    background-color: #fff;
+    max-width: 600px; }
+
+  .info-section-title {
+    margin-top: 80px;
+    font-size: 2.5rem; }
 
   .our-mission-content {
-    padding-left: 25px; }
+    margin: 0;
+    padding: 0; }
 
   .upss-membership-content {
-    width: auto; }
+    margin: 0;
+    padding: 0; }
 
   .asps-content {
-    padding-left: 25px; }
+    margin: 0;
+    padding: 0; }
 
   .our-mission-image1 {
     display: none; }
 
   .our-mission-image2 {
-    display: block;
-    box-shadow: 1px 2px 6px #7e7e7e; }
+    display: block; }
 
   .asps-image1 {
     display: none; }
 
   .asps-image2 {
-    display: block;
-    box-shadow: 1px 2px 6px #7e7e7e; }
+    display: block; }
 
   .toon-doctor-image {
     height: auto;
-    width: 275px; }
-
-  #membership-info-section-title {
-    margin: 85px 0 0 0; }
-
-  .info-section-title {
-    margin-top: 85px; } }
+    width: 275px; } }
 @media only screen and (min-width: 769px) {
   .info-wrapper {
     padding: 0px 280px 105px 280px; }
@@ -657,22 +651,16 @@
   .our-mission-image2 {
     display: block;
     height: 350px;
-    width: auto;
-    box-shadow: 1px 2px 6px #7e7e7e; }
+    width: auto; }
 
   .asps-image2 {
     display: block;
     height: 350px;
-    width: auto;
-    box-shadow: 1px 2px 6px #7e7e7e; }
+    width: auto; }
 
   .toon-doctor-image {
     height: auto;
     width: 275px; }
-
-  #membership-info-section-title {
-    margin: 85px 0 0 0;
-    font-size: 3em; }
 
   .info-section-title {
     margin-top: 105px;
@@ -732,13 +720,13 @@ a {
   width: auto;
   margin: 20px; }
 
-.asps-logo-text {
-  height: 105px;
+.asps-logo {
+  height: 80px;
   width: auto;
-  margin: 20px; }
+  margin: 20px 30px 20px 30px; }
 
 .upss-logo-pink {
-  margin: 10px 30px 20px 30px;
+  margin: 20px 30px 20px 30px;
   height: 50px;
   width: auto; }
 
