@@ -279,6 +279,13 @@
   padding: 50px 10px 50px 10px;
   background-color: #EFEFEF; }
 
+.featured-members-card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px; }
+
 .member-card {
   display: flex;
   flex-flow: row wrap;
@@ -288,13 +295,16 @@
   width: 280px;
   background-color: #FFFFFF;
   padding: 5px;
-  box-shadow: -1px 2px 8px rgba(0, 0, 0, 0.4);
-  margin-top: 15px;
+  box-shadow: -1px 2px 3px rgba(0, 0, 0, 0.2);
+  margin: 10px;
   padding: 0;
   padding: 13px;
   font-family: "Source Sans Pro", sans-serif;
   line-height: 1.18;
-  color: #45799B; }
+  color: #45799B;
+  transition: 0.3s ease-in-out; }
+  .member-card:hover {
+    box-shadow: -1px 2px 8px rgba(0, 0, 0, 0.5); }
   .member-card .member-pic {
     height: 100%;
     width: auto; }
@@ -327,11 +337,11 @@
   align-items: center;
   background-color: #DB7599;
   padding: 30px;
-  height: 3 0px;
+  height: 300px;
   width: 100vw; }
 
 .footer-info {
-  font-size: 1em;
+  font-size: 0.85em;
   font-family: "Source Sans Pro", sans-serif;
   color: #fff; }
   .footer-info p:nth-child(1) {
@@ -349,7 +359,7 @@
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  background-color: #E1AE9E;
+  background-color: #f9c0d4;
   width: 100vw; }
 
 .footer-copy-text {
@@ -371,6 +381,12 @@
   margin: 5px;
   background-color: #DB7599; }
 
+@media only screen and (min-width: 481px) {
+  .footer-media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center; } }
 /*** Chivo ** */
 @font-face {
   font-family: "Chivo";
