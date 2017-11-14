@@ -8,8 +8,10 @@ class MenuNavbar extends Component {
       <div className="navbar-wrapper">
         <div className="navbar-container">
           <NavLogo />
-          <div className="ex-icon-container">
-            <img className="ex" src={ex} />
+          <div className="hamburger-container">
+            <div className="icon-container">
+              <img className="ex" src={ex} />
+            </div>
           </div>
         </div>
       </div>

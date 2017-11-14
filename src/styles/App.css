@@ -345,8 +345,8 @@
   font-family: "Source Sans Pro Light", sans-serif;
   color: #fff; }
   .footer-info p:nth-child(1) {
-    font-family: "Oxygen Light", sans-serif;
-    font-size: 1.25em; }
+    font-family: "Oxygen", sans-serif;
+    font-size: 1em; }
 
 .footer-media {
   display: flex;
@@ -377,8 +377,8 @@
 
 .media {
   height: 35px;
-  width: auto;
-  margin: 8px;
+  width: 35px;
+  margin: 5px 0 0 0;
   background-color: #DB7599; }
 
 @media only screen and (min-width: 481px) {
@@ -885,9 +885,10 @@ body {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center; }
-  .menu-media .media {
-    height: 35px;
-    width: auto;
+  .menu-media img {
+    height: 25px;
+    width: 25px;
+    margin: 3px;
     background-color: #fe019a; }
 
 @media only screen and (min-width: 481px) {

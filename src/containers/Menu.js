@@ -24,9 +24,9 @@ class Menu extends Component {
           <p>(801) 747-3500</p>
         </div>
         <div className="menu-media">
-          <img className="media" src={facebook} alt="Facebook" />
-          <img className="media" src={twitter} alt="Twitter" />
-          <img className="media" src={youtube} alt="Youtube" />
+          <img className="menu-media-icons" src={facebook} alt="Facebook" />
+          <img className="menu-media-icons" src={twitter} alt="Twitter" />
+          <img className="menu-media-icons" src={youtube} alt="Youtube" />
         </div>
       </div>
     );
