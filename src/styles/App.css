@@ -604,7 +604,7 @@
 
   .page-container {
     width: 100vw;
-    padding: 0 75px 95px 75px;
+    padding: 35px 75px 95px 75px;
     background-color: #fff; }
 
   .info-section-title {
@@ -679,7 +679,15 @@
 
   .our-mission-content {
     width: auto;
-    align-items: center; }
+    align-items: center;
+    margin-left: 80px;
+    margin-bottom: 80px; }
+
+  .upss-membership-content {
+    margin-right: 80px; }
+
+  .asps-content {
+    margin-left: 80px; }
 
   .our-mission-image2 {
     display: block;
