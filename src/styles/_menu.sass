@@ -9,8 +9,24 @@
   background-color: rgb(254,1,154)
   padding: 0 20px 20px 0
 
+.ex-icon-container
+  display: flex
+  flex-flow: row nowrap
+  justify-content: center
+  align-items: center
+  border: 1px solid #fff
+  // padding: 0px 1px 0px 0px
+  margin-bottom: 5px
+  height: 21px
+  width: 21px
+  border-radius: 50%
+  transition: .4s ease-in-out
+
+  &:hover
+    border: 2px solid rgb(254,1,154)
+
 .ex
-  height: 11px
+  height: 9px
   width: auto
   color: white
 
@@ -58,6 +74,12 @@
     background-color: rgb(254,1,154)
 
 @media only screen and (min-width: 481px)
+
+  .ex-icon-container
+    border: 3px solid #fff
+    height: 40px
+    width: 40px
+    padding: 0
 
   .ex
     height: 20px

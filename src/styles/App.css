@@ -834,8 +834,22 @@ body {
   background-color: #fe019a;
   padding: 0 20px 20px 0; }
 
+.ex-icon-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  margin-bottom: 5px;
+  height: 21px;
+  width: 21px;
+  border-radius: 50%;
+  transition: 0.4s ease-in-out; }
+  .ex-icon-container:hover {
+    border: 2px solid #fe019a; }
+
 .ex {
-  height: 11px;
+  height: 9px;
   width: auto;
   color: white; }
 
@@ -877,6 +891,12 @@ body {
     background-color: #fe019a; }
 
 @media only screen and (min-width: 481px) {
+  .ex-icon-container {
+    border: 3px solid #fff;
+    height: 40px;
+    width: 40px;
+    padding: 0; }
+
   .ex {
     height: 20px; }
 
@@ -931,9 +951,11 @@ body {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    border: 2px solid #fff;
-    padding: 4px 6px 4px 6px;
+    border: 1px solid #fff;
+    padding: 2px 2px 2px 2px;
     margin-bottom: 5px;
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
     transition: 0.4s ease-in-out; }
     .hamburger-container .icon-container:hover {
@@ -951,7 +973,10 @@ body {
 
 @media only screen and (min-width: 481px) {
   .hamburger-container .icon-container {
-    border: 3px solid #fff; }
+    border: 3px solid #fff;
+    height: 40px;
+    width: 40px;
+    padding: 0; }
     .hamburger-container .icon-container:hover {
       border: 3px solid #fe019a; }
 
