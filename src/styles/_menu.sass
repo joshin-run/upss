@@ -1,0 +1,78 @@
+.menu-wrapper
+  display: flex
+  flex-direction: column
+  flex-wrap: nowrap
+  justify-content: space-between
+  align-items: flex-end
+  height: 100vh
+  width: 100vw
+  background-color: rgb(254,1,154)
+  padding: 0 20px 20px 0
+
+.ex
+  height: 11px
+  width: auto
+  color: white
+
+.menu-items-container
+  display: flex
+  flex-direction: column
+  flex-wrap: nowrap
+  justify-content: center
+  align-items: flex-end
+  font-family: 'Lato Hairline', sans-serif
+  color: #fff
+  z-index: 200
+  list-style-type: none
+  // margin-top: 30px
+
+  li
+    font-size: 1.95rem
+    text-align: center
+    line-height: 1.25
+    transition: .3s ease-in-out
+
+    &:hover
+      color: #f6a6c3
+
+.menu-info
+  font-size: .85em
+  font-family: 'Lato Hairline', sans-serif
+  color: #fff
+  text-align: right
+
+  p:nth-child(1)
+    font-family: 'Lato Hairline', sans-serif
+    font-size: 1.35em
+
+.menu-media
+  display: flex
+  flex-flow: row nowrap
+  justify-content: center
+  align-items: center
+
+  .media
+    height: 35px
+    width: auto
+    // margin: 8px
+    background-color: rgb(254,1,154)
+
+@media only screen and (min-width: 481px)
+
+  .ex
+    height: 20px
+
+  .menu-items-container
+    li
+      font-size: 2.25rem
+
+
+// .hamburger-menu
+//   font-family: 'Chivo'
+//   color: #fff
+//   font-size: .5em
+//
+// .hamburger-text-icon
+//   color: #fff
+//   font-size: .75em
+//   line-height: 1

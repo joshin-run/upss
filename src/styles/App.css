@@ -823,6 +823,65 @@ a {
 body {
   background-color: #fff; }
 
+.menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fe019a;
+  padding: 0 20px 20px 0; }
+
+.ex {
+  height: 11px;
+  width: auto;
+  color: white; }
+
+.menu-items-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: "Lato Hairline", sans-serif;
+  color: #fff;
+  z-index: 200;
+  list-style-type: none; }
+  .menu-items-container li {
+    font-size: 1.95rem;
+    text-align: center;
+    line-height: 1.25;
+    transition: 0.3s ease-in-out; }
+    .menu-items-container li:hover {
+      color: #f6a6c3; }
+
+.menu-info {
+  font-size: 0.85em;
+  font-family: "Lato Hairline", sans-serif;
+  color: #fff;
+  text-align: right; }
+  .menu-info p:nth-child(1) {
+    font-family: "Lato Hairline", sans-serif;
+    font-size: 1.35em; }
+
+.menu-media {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center; }
+  .menu-media .media {
+    height: 35px;
+    width: auto;
+    background-color: #fe019a; }
+
+@media only screen and (min-width: 481px) {
+  .ex {
+    height: 20px; }
+
+  .menu-items-container li {
+    font-size: 2.25rem; } }
 .navbar-wrapper {
   display: flex;
   flex-flow: row nowrap;
@@ -873,7 +932,7 @@ body {
     justify-content: center;
     align-items: center;
     border: 2px solid #fff;
-    padding: 5px 6px 5px 6px;
+    padding: 4px 6px 4px 6px;
     margin-bottom: 5px;
     border-radius: 50%;
     transition: 0.4s ease-in-out; }
@@ -884,10 +943,6 @@ body {
   font-family: "Chivo";
   color: #fff;
   font-size: 0.5em; }
-
-.hamburger-icon-white {
-  height: 10px;
-  width: auto; }
 
 .hamburger-text-icon {
   color: #fff;
