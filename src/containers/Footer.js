@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import facebook from '../images/icons/facebook-white.svg'
-import twitter from '../images/icons/twitter-white.svg'
-import youtube from '../images/icons/youtube-white.svg'
+import facebook from '../images/icons/facebook-circ-wh2.png'
+import twitter from '../images/icons/twitter-circ-wh.png'
+import youtube from '../images/icons/youtube-circ-wh2.png'
 
 class Footer extends Component {
   render() {

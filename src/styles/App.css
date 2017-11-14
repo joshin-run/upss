@@ -342,10 +342,10 @@
 
 .footer-info {
   font-size: 0.85em;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro Light", sans-serif;
   color: #fff; }
   .footer-info p:nth-child(1) {
-    font-family: "Oxygen", sans-serif;
+    font-family: "Oxygen Light", sans-serif;
     font-size: 1.25em; }
 
 .footer-media {
@@ -363,7 +363,7 @@
   width: 100vw; }
 
 .footer-copy-text {
-  font-size: 0.65em;
+  font-size: 0.75em;
   font-family: "Source Sans Pro", sans-serif;
   padding: 25px 0 25px 0;
   color: #fe019a;
@@ -376,9 +376,9 @@
   text-align: center; }
 
 .media {
-  height: 25px;
+  height: 35px;
   width: auto;
-  margin: 5px;
+  margin: 8px;
   background-color: #DB7599; }
 
 @media only screen and (min-width: 481px) {
@@ -550,6 +550,11 @@
   height: 100%;
   width: 100%; }
 
+.red-checkmark {
+  height: 12px;
+  width: auto;
+  margin-right: 10px; }
+
 .our-mission-content {
   display: flex;
   flex-flow: column nowrap;
@@ -564,8 +569,16 @@
   height: 80px;
   width: auto; }
 
-.our-mission-text span {
-  font-family: "Source Sans Pro Bold", sans-serif; }
+ul.our-mission-text {
+  list-style: url(../images/icons/red-checkmark-bright-16.png) no-repeat left 9px; }
+  ul.our-mission-text span {
+    font-family: "Source Sans Pro Bold", sans-serif; }
+  ul.our-mission-text li {
+    background: url("../images/icons/red-checkmark-bright-16.png") no-repeat left top;
+    height: 44px;
+    padding-left: 28px;
+    padding-top: -7px;
+    display: block; }
 
 .upss-membership-content {
   display: flex;
