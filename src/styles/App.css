@@ -670,8 +670,8 @@
     height: auto;
     width: 275px; } }
 @media only screen and (min-width: 769px) {
-  .info-wrapper {
-    padding: 0px 280px 105px 280px; }
+  .page-container {
+    padding: 0px 150px 135px 150px; }
 
   .our-mission-container {
     align-items: center;
@@ -682,12 +682,15 @@
     align-items: center;
     margin-left: 80px;
     margin-bottom: 80px; }
-
-  .upss-membership-content {
-    margin-right: 80px; }
+    .our-mission-content .upss-logo-pink {
+      height: 70px; }
 
   .asps-content {
     margin-left: 80px; }
+    .asps-content .asps-logo {
+      height: 120px;
+      width: auto;
+      margin: 20px 30px 20px 30px; }
 
   .our-mission-image2 {
     display: block;
@@ -701,10 +704,12 @@
 
   .toon-doctor-image {
     height: auto;
-    width: 275px; }
+    width: 275px;
+    margin-left: 60px; }
 
   .info-section-title {
     margin-top: 105px;
+    margin-bottom: 50px;
     font-size: 3em; } }
 .learnmore-wrapper {
   display: flex;
