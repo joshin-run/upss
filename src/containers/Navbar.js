@@ -8,12 +8,14 @@ class Navbar extends Component {
     return (
       <div className="navbar-wrapper">
         <div className="navbar-container">
-          <NavLogo />
-          <div className="hamburger-container">
-            <div className="icon-container">
-              <p className="hamburger-text-icon">&#9776;</p>
-            </div>
-            <p className="hamburger-menu">MENU</p>
+          <NavLogo />          
+          <div id="main_menu_link" class="main_menu_link">
+          	<div class="sand_icon">
+          		<div class="sand_icon_bar sand_icon_bar_1"></div>
+          		<div class="sand_icon_bar sand_icon_bar_2"></div>
+          		<div class="sand_icon_bar sand_icon_bar_3"></div>
+          	</div>
+            <p className="main_menu_label">MENU</p>
           </div>
         </div>
       </div>

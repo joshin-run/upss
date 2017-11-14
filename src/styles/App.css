@@ -920,26 +920,43 @@ body {
 @media only screen and (min-width: 1450px) {
   .navbar-wrapper .navbar-container {
     width: 75vw; } }
-.hamburger-container {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer; }
-  .hamburger-container .icon-container {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid #fff;
-    padding: 4px 6px 4px 6px;
-    margin-bottom: 5px;
-    border-radius: 50%;
-    transition: 0.4s ease-in-out; }
-    .hamburger-container .icon-container:hover {
-      border: 2px solid #fe019a; }
+/*** New Menu Icon ** */
+.main_menu_link {
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  color: #fff;
+  z-index: 100;
+  cursor: pointer;
+  text-align: center; }
 
-.hamburger-menu {
+.sand_icon {
+  width: 40px;
+  height: 40px;
+  box-shadow: inset 0 0 0 2px #28DDE0;
+  background: #28DDE0;
+  border-radius: 50%;
+  position: relative;
+  transition: all 0.3s; }
+
+.sand_icon_bar {
+  color: #fff; }
+
+.sand_icon_bar {
+  width: 56%;
+  height: 2px;
+  background: black;
+  position: absolute;
+  margin-top: -1px;
+  margin-left: -28%;
+  left: 50%;
+  transition: all 0.3s; }
+
+.sand_icon_bar_1 {
+  top: 32%; }
+
+/*** New Menu Icon ** */
+.main_menu_label {
   font-family: "Chivo";
   color: #fff;
   font-size: 0.5em; }
