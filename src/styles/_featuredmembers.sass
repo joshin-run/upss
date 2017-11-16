@@ -1,4 +1,4 @@
-.members-wrapper
+.featured-members-wrapper
   display: flex
   flex-flow: column wrap
   justify-content: center
@@ -6,23 +6,24 @@
   height: auto
   width: 100vw
   padding: 50px 10px 50px 10px
-  background-color: lightblue
+  background-color: $light-gray
 
-.members-card-container
+.featured-members-card-container
   display: flex
   flex-flow: row wrap
   justify-content: center
   align-items: center
   max-width: 1000px
 
-.member-card
+.featured-member-card
   display: flex
   flex-flow: row wrap
   justify-content: flex-start
   align-items: flex-start
   height: 120px
-  width: 210px
+  width: 280px
   background-color: #FFFFFF
+  padding: 5px
   box-shadow: -1px 2px 3px rgba(0, 0, 0, 0.2)
   margin: 10px
   padding: 0
@@ -35,27 +36,27 @@
   &:hover
     box-shadow: -1px 2px 8px rgba(0, 0, 0, 0.5)
 
-  .member-pic
+  .featured-member-pic
     height: 100%
     width: auto
 
   .contact-info-container
     height: auto
     width: auto
-    // margin-left: 12px
+    margin-left: 12px
 
-  .member-name
+  .featured-member-name
     font-size: .87em
     font-weight: bold
 
-  .member-address
+  .featured-member-address
     font-size: .87em
     font-weight: normal
 
-  .member-phone-number
+  .featured-member-phone-number
     font-size: .87em
     font-weight: bold
 
-  .member-site
+  .featured-member-site
     color: #5D76D8
     font-size: .80em

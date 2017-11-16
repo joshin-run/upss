@@ -3,7 +3,6 @@ import NavLogo from '../components/NavLogo'
 import hamburgerIconWhite from '../images/icons/hamburger-icon-thin-wh.svg'
 
 class Navbar extends Component {
-                // <img className="hamburger-icon-white" src={hamburgerIconWhite} />
   render() {
     return (
       <div className="navbar-wrapper">

@@ -3,6 +3,10 @@ import Navbar from './Navbar'
 import BannerButton from '../components/BannerButton'
 
 class Banner extends Component {
+  constructor(props) {
+    super(props),
+    console.log(props)
+  }
   render() {
     return (
       <div className="banner-wrapper">

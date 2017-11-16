@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-sliding-pane": "^2.0.1"
   },
   "devDependencies": {
     "react-scripts": "1.0.16"
@@ -21,7 +22,7 @@
     "type": "git",
     "url": "git+https://github.com/joshin-run/upss.git"
   },
-  "author": "",
+  "author": "j create it, llc",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/joshin-run/upss/issues"

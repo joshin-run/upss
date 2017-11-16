@@ -269,62 +269,6 @@
 @media only screen and (min-width: 769px) {
   .contactUs-text-container .fieldset {
     width: 50vw; } }
-.featured-members-wrapper {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
-  height: auto;
-  width: 100vw;
-  padding: 50px 10px 50px 10px;
-  background-color: #EFEFEF; }
-
-.featured-members-card-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  max-width: 1000px; }
-
-.member-card {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  height: 120px;
-  width: 280px;
-  background-color: #FFFFFF;
-  padding: 5px;
-  box-shadow: -1px 2px 3px rgba(0, 0, 0, 0.2);
-  margin: 10px;
-  padding: 0;
-  padding: 13px;
-  font-family: "Source Sans Pro", sans-serif;
-  line-height: 1.18;
-  color: #45799B;
-  transition: 0.3s ease-in-out; }
-  .member-card:hover {
-    box-shadow: -1px 2px 8px rgba(0, 0, 0, 0.5); }
-  .member-card .member-pic {
-    height: 100%;
-    width: auto; }
-  .member-card .contact-info-container {
-    height: auto;
-    width: auto;
-    margin-left: 12px; }
-  .member-card .member-name {
-    font-size: 0.87em;
-    font-weight: bold; }
-  .member-card .member-address {
-    font-size: 0.87em;
-    font-weight: normal; }
-  .member-card .member-phone-number {
-    font-size: 0.87em;
-    font-weight: bold; }
-  .member-card .member-site {
-    color: #5D76D8;
-    font-size: 0.8em; }
-
 .footer-wrapper {
   margin: 0;
   padding: 0;
@@ -485,6 +429,62 @@
 @font-face {
   font-family: "Tenor Sans";
   src: url("../fonts/Tenor_Sans/TenorSans-Regular.ttf"); }
+.featured-members-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100vw;
+  padding: 50px 10px 50px 10px;
+  background-color: #EFEFEF; }
+
+.featured-members-card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px; }
+
+.featured-member-card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 120px;
+  width: 280px;
+  background-color: #FFFFFF;
+  padding: 5px;
+  box-shadow: -1px 2px 3px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  padding: 0;
+  padding: 13px;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.18;
+  color: #45799B;
+  transition: 0.3s ease-in-out; }
+  .featured-member-card:hover {
+    box-shadow: -1px 2px 8px rgba(0, 0, 0, 0.5); }
+  .featured-member-card .featured-member-pic {
+    height: 100%;
+    width: auto; }
+  .featured-member-card .contact-info-container {
+    height: auto;
+    width: auto;
+    margin-left: 12px; }
+  .featured-member-card .featured-member-name {
+    font-size: 0.87em;
+    font-weight: bold; }
+  .featured-member-card .featured-member-address {
+    font-size: 0.87em;
+    font-weight: normal; }
+  .featured-member-card .featured-member-phone-number {
+    font-size: 0.87em;
+    font-weight: bold; }
+  .featured-member-card .featured-member-site {
+    color: #5D76D8;
+    font-size: 0.8em; }
+
 .header-wrapper {
   display: flex;
   flex-flow: column wrap;
@@ -822,6 +822,60 @@ a {
 
 body {
   background-color: #fff; }
+
+.members-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100vw;
+  padding: 50px 10px 50px 10px;
+  background-color: lightblue; }
+
+.members-card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px; }
+
+.member-card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 120px;
+  width: 210px;
+  background-color: #FFFFFF;
+  box-shadow: -1px 2px 3px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  padding: 0;
+  padding: 13px;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.18;
+  color: #45799B;
+  transition: 0.3s ease-in-out; }
+  .member-card:hover {
+    box-shadow: -1px 2px 8px rgba(0, 0, 0, 0.5); }
+  .member-card .member-pic {
+    height: 100%;
+    width: auto; }
+  .member-card .contact-info-container {
+    height: auto;
+    width: auto; }
+  .member-card .member-name {
+    font-size: 0.87em;
+    font-weight: bold; }
+  .member-card .member-address {
+    font-size: 0.87em;
+    font-weight: normal; }
+  .member-card .member-phone-number {
+    font-size: 0.87em;
+    font-weight: bold; }
+  .member-card .member-site {
+    color: #5D76D8;
+    font-size: 0.8em; }
 
 .menu-wrapper {
   display: flex;
