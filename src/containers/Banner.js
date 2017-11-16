@@ -5,13 +5,19 @@ import BannerButton from '../components/BannerButton'
 class Banner extends Component {
   constructor(props) {
     super(props),
-    console.log(props)
+    console.log(props),
+    this.state = {}
   }
+
+  toggleMenu = () => {
+    this.props.onToggleMenu()
+  }
+
   render() {
     return (
       <div className="banner-wrapper">
         <div className="banner-image" alt="Girl in Field">
-        <Navbar />
+        <Navbar onToggleMenu={this.toggleMenu}/>
           <div className="banner-gradient">
             <div className="banner-text-container">
               <p>"I didn’t know my Cosmetic Surgeon</p>

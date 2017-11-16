@@ -1,3 +1,19 @@
+// .sidebar {
+//   width: 300px;
+//   height: 100%;
+//   position: absolute;
+//   top: 0;
+//   left: -300px;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+// }
+// .sidebar.open {
+//   -webkit-transform: translateX(300px);
+//   transform: translateX(300px);
+// }
+
 .menu-wrapper
   display: flex
   flex-direction: column
@@ -8,6 +24,15 @@
   width: 100vw
   background-color: rgb(254,1,154)
   padding: 0 20px 20px 0
+  -webkit-transform: translateX(0)
+  transform: translateX(0)
+  -webkit-transition: .3s ease all
+  transition: .3s ease all
+  top: 0
+
+.menu-wrapper.open
+  -webkit-transform: translateX(100vw)
+  transform: translateX(100vw)
 
 .ex-icon-container
   display: flex
