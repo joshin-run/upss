@@ -24,11 +24,11 @@ class Menu extends Component {
             <p>Salt Lake City, UT 84107-4250</p>
             <p>(801) 747-3500</p>
           </div>
-          <div className="menu-media">
-            <img className="menu-media-icons" src={facebook} alt="Facebook" />
-            <img className="menu-media-icons" src={twitter} alt="Twitter" />
-            <img className="menu-media-icons" src={youtube} alt="Youtube" />
-          </div>
+        </div>
+        <div className="menu-media">
+          <img className="menu-media-icons" src={facebook} alt="Facebook" />
+          <img className="menu-media-icons" src={twitter} alt="Twitter" />
+          <img className="menu-media-icons" src={youtube} alt="Youtube" />
         </div>
       </div>
     );
