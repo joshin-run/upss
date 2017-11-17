@@ -13,18 +13,24 @@ class App extends Component {
     super(props);
     this.state = {
       isMenuOpen: false
-    };
+    }
+    this.toggleMenu = this.toggleMenu.bind(this)
   }
 
   toggleMenu = () => {
-    this.setState({isSidebarOpen: !this.state.isMenuOpen})
+    this.setState({isMenuOpen: !this.state.isMenuOpen})
   }
 
   render() {
     return (
-      <div>
-        <Banner onToggleMenu={this.toggleMenu}/>
-        <Menu isMenuOpen={this.state.isMenuOpen} />
+      <div className="app-container">
+        <Banner
+          onMenuToggle={this.toggleMenu}
+        />
+        <Menu 
+          isMenuOpen={this.state.isMenuOpen}
+          onMenuToggle={this.toggleMenu}
+        />
         <Info />
         <FeaturedMembers />
         <Members />
