@@ -24,7 +24,7 @@ class App extends Component {
     return (
       <div>
         <Banner onToggleMenu={this.toggleMenu}/>
-        <Menu />
+        <Menu isMenuOpen={this.state.isMenuOpen} />
         <Info />
         <FeaturedMembers />
         <Members />
