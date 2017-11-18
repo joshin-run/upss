@@ -7,8 +7,7 @@ class FAQs extends Component {
     return (
       <div className="faq-wrapper">
         <Navbar />
-          <p><a href="/">HELLOW!</a></p>
-        <Footer />
+        <p>Hello World!</p>
       </div>
     );
   }
