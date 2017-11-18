@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Banner extends Component {
   render() {
     return (
-      <div className="contactUs-wrapper">
+      <div id="contactus" className="contactUs-wrapper">
         <div className="contactUs-overlay">
           <div className="contactUs-text-container">
             <p className="title">Contact Us</p>
@@ -16,7 +16,7 @@ class Banner extends Component {
                 <p className="form-label">Subject:</p>
                 <input className="input-fields" type="text" name="subject" />
                 <p className="form-label">Message:</p>
-                <textarea className="input-area" rows="8" />                  
+                <textarea className="input-area" rows="8" />
                 <input className="submit-btn" type="submit" value="Submit" />
               </fieldset>
             </form>

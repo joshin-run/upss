@@ -1,4 +1,5 @@
 import React from 'react';
+import DarkNav from './DarkNav';
 import Home from './Home';
 import FAQs from './FAQs';
 import Procedures from './Procedures';
@@ -8,10 +9,11 @@ import { Switch, Route } from 'react-router-dom';
 const Main = () => (
     <div>
         <Switch>
-          <Route to="/" component={Home} />
-          <Route path="/faqs" component={FAQs}/>
-          <Route path="/procedures" component={Procedures}/>
-          <Route path="/members" component={Members}/>
+          <DarkNav />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/faqs" component={FAQs}/>
+          <Route exact path="/procedures" component={Procedures}/>
+          <Route exact path="/members" component={Members}/>
         </Switch>
         <Footer />
     </div>

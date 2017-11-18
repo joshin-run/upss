@@ -269,6 +269,95 @@
 @media only screen and (min-width: 769px) {
   .contactUs-text-container .fieldset {
     width: 50vw; } }
+.dark-navbar-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100vw;
+  background: transparent;
+  z-index: 6;
+  align-self: flex-start;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0; }
+  .dark-navbar-wrapper .dark-navbar-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+    padding: 20px 20px 20px 20px; }
+
+.dark-upss-logo-pink {
+  width: 15%;
+  height: auto; }
+
+@media only screen and (min-width: 481px) {
+  .navbar-wrapper {
+    padding: 30px 40px 0 40px; }
+    .navbar-wrapper .navbar-container {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      height: auto; } }
+@media only screen and (min-width: 769px) {
+  .navbar-wrapper {
+    padding: 40px 55px 0 55px; } }
+@media only screen and (min-width: 1450px) {
+  .navbar-wrapper .navbar-container {
+    width: 75vw; } }
+.dark-hamburger-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; }
+  .dark-hamburger-container .icon-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fe019a;
+    padding: 2px 2px 2px 2px;
+    margin-bottom: 5px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    transition: 0.4s ease-in-out; }
+    .dark-hamburger-container .icon-container:hover {
+      border: 2px solid #DB7599; }
+
+.dark-hamburger-menu {
+  font-family: "Chivo";
+  color: #fe019a;
+  font-size: 0.5em; }
+
+.dark-hamburger-text-icon {
+  color: #fe019a;
+  font-size: 0.75em;
+  line-height: 1; }
+
+@media only screen and (min-width: 481px) {
+  .dark-hamburger-container .icon-container {
+    border: 3px solid #fe019a;
+    height: 40px;
+    width: 40px;
+    padding: 0; }
+    .dark-hamburger-container .icon-container:hover {
+      border: 3px solid #DB7599; }
+
+  .hamburger-text-icon {
+    font-size: 1.5em; }
+
+  .hamburger-menu {
+    font-family: "Chivo";
+    color: #fff;
+    font-size: 0.75em; } }
 .footer-wrapper {
   margin: 0;
   padding: 0;
