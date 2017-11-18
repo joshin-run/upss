@@ -23,11 +23,11 @@ class Home extends Component {
     return (
       <div className="app-container">
         <Banner
-          onMenuToggle={this.props.onMenuToggle}
+          onMenuToggle={this.toggleMenu}
         />
         <Menu
-          isMenuOpen={this.props.isMenuOpen}
-          onMenuToggle={this.props.onMenuToggle}
+          isMenuOpen={this.state.isMenuOpen}
+          onMenuToggle={this.toggleMenu}
         />
         <Info />
         <FeaturedMembers />
