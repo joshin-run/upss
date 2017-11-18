@@ -4,6 +4,7 @@ import facebook from '../images/icons/facebook-circ-wh2.png'
 import twitter from '../images/icons/twitter-circ-wh.png'
 import youtube from '../images/icons/youtube-circ-wh2.png'
 import faqs from './FAQs'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
 class Menu extends Component {
   constructor(props) {
