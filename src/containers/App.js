@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
-import Banner from './Banner'
+// import Home from './Home'
 import Menu from './Menu'
-import Info from './Info'
-import FeaturedMembers from './FeaturedMembers'
-import Members from './Members'
-import ContactUs from './ContactUs'
+// import FAQs from './FAQs'
+// import Procedures from './Procedures'
 import Footer from './Footer'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
 class App extends Component {
   constructor(props) {
@@ -23,22 +22,40 @@ class App extends Component {
 
   render() {
     return (
-      <div className="app-container">
-        <Banner
-          onMenuToggle={this.toggleMenu}
-        />
-        <Menu 
-          isMenuOpen={this.state.isMenuOpen}
-          onMenuToggle={this.toggleMenu}
-        />
-        <Info />
-        <FeaturedMembers />
-        <Members />
-        <ContactUs />
-        <Footer />
-      </div>
+      <Router>
+        <div className="app-container">
+          <Menu
+            isMenuOpen={this.state.isMenuOpen}
+            onMenuToggle={this.toggleMenu}
+          />
+
+          <Route exact path="/" component={Home}/>
+          <Route path="/faqs" component={FAQs}/>
+          <Route path="/procedures" component={Procedures}/>
+
+          <Footer />
+        </div>
+      </Router>
     );
   }
 }
+
+const Home = () => (
+  <Home
+    onMenuToggle={this.toggleMenu}
+  />
+)
+const FAQs = () => (
+  <FAQs
+  onMenuToggle={this.toggleMenu}
+  />
+)
+const Procedures = () => (
+  <Procedures
+    onMenuToggle={this.toggleMenu}
+  />
+)
+
+
 
 export default App;
