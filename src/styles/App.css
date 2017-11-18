@@ -290,27 +290,13 @@
     align-items: center;
     height: auto;
     width: 100vw;
-    padding: 20px 20px 20px 20px; }
+    padding: 8px 20px;
+    box-shadow: 0px 2px 12px #888888; }
 
 .dark-upss-logo-pink {
-  width: 15%;
-  height: auto; }
+  width: auto;
+  height: 40px; }
 
-@media only screen and (min-width: 481px) {
-  .navbar-wrapper {
-    padding: 30px 40px 0 40px; }
-    .navbar-wrapper .navbar-container {
-      display: flex;
-      flex-flow: row nowrap;
-      justify-content: space-between;
-      align-items: center;
-      height: auto; } }
-@media only screen and (min-width: 769px) {
-  .navbar-wrapper {
-    padding: 40px 55px 0 55px; } }
-@media only screen and (min-width: 1450px) {
-  .navbar-wrapper .navbar-container {
-    width: 75vw; } }
 .dark-hamburger-container {
   display: flex;
   flex-flow: column nowrap;
@@ -342,7 +328,18 @@
   font-size: 0.75em;
   line-height: 1; }
 
+.dark-upss-logo-pink {
+  width: auto;
+  height: 60px; }
+
 @media only screen and (min-width: 481px) {
+  .dark-navbar-wrapper .dark-navbar-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: auto; }
+
   .dark-hamburger-container .icon-container {
     border: 3px solid #fe019a;
     height: 40px;
@@ -351,10 +348,10 @@
     .dark-hamburger-container .icon-container:hover {
       border: 3px solid #DB7599; }
 
-  .hamburger-text-icon {
+  .dark-hamburger-text-icon {
     font-size: 1.5em; }
 
-  .hamburger-menu {
+  .dakr-hamburger-menu {
     font-family: "Chivo";
     color: #fff;
     font-size: 0.75em; } }

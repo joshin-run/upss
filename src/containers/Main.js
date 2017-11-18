@@ -8,14 +8,14 @@ import Footer from './Footer';
 import { Switch, Route } from 'react-router-dom';
 const Main = () => (
     <div>
-        <Switch>
-          <DarkNav />
-          <Route exact path="/" component={Home} />
-          <Route exact path="/faqs" component={FAQs}/>
-          <Route exact path="/procedures" component={Procedures}/>
-          <Route exact path="/members" component={Members}/>
-        </Switch>
-        <Footer />
+      <DarkNav />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/faqs" component={FAQs}/>
+        <Route exact path="/procedures" component={Procedures}/>
+        <Route exact path="/members" component={Members}/>
+      </Switch>
+      <Footer />
     </div>
 );
 export default Main
