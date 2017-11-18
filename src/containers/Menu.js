@@ -3,6 +3,7 @@ import MenuNavbar from './MenuNavbar'
 import facebook from '../images/icons/facebook-circ-wh2.png'
 import twitter from '../images/icons/twitter-circ-wh.png'
 import youtube from '../images/icons/youtube-circ-wh2.png'
+import faqs from './FAQs'
 
 class Menu extends Component {
   constructor(props) {
@@ -18,7 +19,7 @@ class Menu extends Component {
         <div className="menu-items-wrapper">
           <ul className="menu-items-container">
             <li><a href="/">Home</a></li>
-            <li>Plastic Surgery FAQs</li>
+            <li><a href={faqs}>Plastic Surgery FAQs</a></li>
             <li>Procedures</li>
             <li>Member Directory</li>
             <li>Contact Us</li>
