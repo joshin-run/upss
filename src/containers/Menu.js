@@ -17,7 +17,7 @@ class Menu extends Component {
         <MenuNavbar onMenuToggle={this.props.onMenuToggle}/>
         <div className="menu-items-wrapper">
           <ul className="menu-items-container">
-            <li>Home</li>
+            <li><a href="/">Home</a></li>
             <li>Plastic Surgery FAQs</li>
             <li>Procedures</li>
             <li>Member Directory</li>
