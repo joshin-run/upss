@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
-// import Navbar from './Navbar'
+import DarkNav from './DarkNav'
 // import Footer from './Footer'
 import AWR from '../components/Procedures-Content/AWR'
 import BodyContouring from '../components/Procedures-Content/BodyContouring'
@@ -37,9 +37,10 @@ import SkinCancer from '../components/Procedures-Content/SkinCancer'
 import SkinGrafts from '../components/Procedures-Content/SkinGrafts'
 import Tummy from '../components/Procedures-Content/Tummy'
 
-const FAQs = () => (
+const Procedures = (props) => (
   <Router>
     <div>
+    <DarkNav onMenuToggle={props.onMenuToggle} />
       <ul>
         <li><Link to="/abdominal-wall-reconstruction">Abdominal Wall Reconstruction</Link></li>
         <li><Link to="/body-contouring">Body Contouring After Massive Weight Loss</Link></li>
@@ -119,4 +120,4 @@ const FAQs = () => (
   </Router>
 )
 
-export default FAQs;
+export default Procedures;
