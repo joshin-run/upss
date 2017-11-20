@@ -6,8 +6,7 @@ class FAQs extends Component {
   render() {
     return (
       <div className="faq-wrapper">
-        <Navbar />
-        <p>Hello World!</p>
+      
       </div>
     );
   }

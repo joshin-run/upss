@@ -3,7 +3,7 @@ import MenuNavLogo from '../components/MenuNavLogo'
 import hamburgerIconWhite from '../images/icons/hamburger-icon-thin-wh.svg'
 import upssLogoPink from '../images/logos/upss-logo-sleek-mid-bold-pink.svg'
 
-class Navbar extends Component {
+class DarkNav extends Component {
   constructor(props) {
     super(props)
     console.log('NavbarDark props:', props)
@@ -28,4 +28,4 @@ class Navbar extends Component {
   }
 }
 
-export default Navbar;
+export default DarkNav;

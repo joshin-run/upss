@@ -45,7 +45,7 @@ class Menu extends Component {
             <li><Link to="/faqs">Plastic Surgery FAQs</Link></li>
             <li><Link to="/procedures">Procedures</Link></li>
             <li><Link to="/members">Member Directory</Link></li>
-            <li><Link to="#contactus">Contact Us</Link></li>
+            <li><Link to="/#contactus">Contact Us</Link></li>
           </ul>
           <div className="menu-info">
             <p>Utah Plastic Surgery Society</p>

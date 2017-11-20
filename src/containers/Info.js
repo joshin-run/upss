@@ -9,7 +9,7 @@ import redCheckmark from '../images/icons/red-checkmark.svg'
 class Info extends Component {
   render() {
     return (
-      <div className="info-wrapper">
+      <div id="info" className="info-wrapper">
         <div className="page-container">
         <p className="info-section-title">
         Our Mission
