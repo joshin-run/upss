@@ -10,24 +10,6 @@ import {
   Link
 } from 'react-router-dom'
 
-// const BasicExample = () => (
-//   <Router>
-//     <div>
-//       <ul>
-//         <li><Link to="/">Home</Link></li>
-//         <li><Link to="/about">About</Link></li>
-//         <li><Link to="/topics">Topics</Link></li>
-//       </ul>
-//
-//       <hr/>
-//
-//       <Route exact path="/" component={Home}/>
-//       <Route path="/about" component={About}/>
-//       <Route path="/topics" component={Topics}/>
-//     </div>
-//   </Router>
-// )
-
 class Menu extends Component {
   constructor(props) {
     super(props)
@@ -45,7 +27,7 @@ class Menu extends Component {
             <li><Link to="/faqs">Plastic Surgery FAQs</Link></li>
             <li><Link to="/procedures">Procedures</Link></li>
             <li><Link to="/members">Member Directory</Link></li>
-            <li><Link to="/#contactus">Contact Us</Link></li>
+            <li><Link to="/contactus">Contact Us</Link></li>
           </ul>
           <div className="menu-info">
             <p>Utah Plastic Surgery Society</p>

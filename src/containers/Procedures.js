@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import DarkNav from './DarkNav'
-// import Footer from './Footer'
 import AWR from '../components/Procedures-Content/AWR'
 import BodyContouring from '../components/Procedures-Content/BodyContouring'
 import BodyProcedures from '../components/Procedures-Content/BodyProcedures'

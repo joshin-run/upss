@@ -1,8 +1,8 @@
-Grant R. Fairbanks, M.D.
-1151 East 3900 South
-Salt Lake City, UT 84124
-(801) 268-8838
-www.FairbanksPlasticSurgery.com
+York Yates, M.D.
+2121 North 1700 West
+Layton, UT 84041
+(801) 773-4840
+www.yorkyates.com
 
 Lee J. Malan, M.D.
 3955 Harrison Blvd
@@ -63,12 +63,6 @@ Provo, UT 84604
 (801) 375-4646
 www.jamesclaytonmd.com
 
-York Yates, M.D.
-2121 North 1700 West
-Layton, UT 84041
-(801) 773-4840
-www.yorkyates.com
-
 Trenton Jones, M.D.
 1375 East 800 North
 Orem, UT 84097
@@ -79,6 +73,12 @@ Jason Hancey, M.D.
 9450 South 1300 East, Suite 220
 Sandy, UT 84093
 (801) 501-6250
+
+Grant R. Fairbanks, M.D.
+1151 East 3900 South
+Salt Lake City, UT 84124
+(801) 268-8838
+www.FairbanksPlasticSurgery.com
 
 Kimball M. Crofts, M.D.
 385 West 600 North

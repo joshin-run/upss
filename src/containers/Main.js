@@ -27,6 +27,7 @@ class Main extends Component {
     return (
       <div>
         <Menu
+          noOverlay
           isMenuOpen={this.state.isMenuOpen}
           onMenuToggle={this.toggleMenu}
         />
