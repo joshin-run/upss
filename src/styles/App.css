@@ -559,7 +559,7 @@
     width: auto;
     margin-left: 12px; }
   .featured-member-card .featured-member-name {
-    font-size: 0.87em;
+    font-size: 1em;
     font-weight: bold; }
   .featured-member-card .featured-member-address {
     font-size: 0.87em;
@@ -569,7 +569,7 @@
     font-weight: bold; }
   .featured-member-card .featured-member-site {
     color: #5D76D8;
-    font-size: 0.8em; }
+    font-size: 0.75em; }
 
 .header-wrapper {
   display: flex;
