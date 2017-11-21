@@ -311,6 +311,25 @@ class FeaturedMembers extends Component {
             </div>
           </div>
           <div className="featured-member-card">
+            <img className="featured-member-pic" href="" src={DanielSellers} />
+            <div className="contact-info-container">
+              <p className="featured-member-name">
+                Daniel Sellers, M.D.
+              </p>
+              <p className="featured-member-address">
+              620 Medical Drive, <br />
+              Suite 310<br />
+              Bountiful, UT 84010
+              </p>
+              <p className="featured-member-phone-number">
+                (801) 295-6554
+              </p>
+              <p className="featured-member-site">
+                <a href="http://www.sellersplasticsurgery.com" target="_blank">www.sellersplasticsurgery.com</a>
+              </p>
+            </div>
+          </div>
+          <div className="featured-member-card">
             <img className="featured-member-pic" href="" src={BradfordRockwell} />
             <div className="contact-info-container">
               <p className="featured-member-name">
