@@ -23,11 +23,11 @@ class Menu extends Component {
         <MenuNavbar onMenuToggle={this.props.onMenuToggle}/>
         <div className="menu-items-wrapper">
           <ul className="menu-items-container">
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/faqs">Plastic Surgery FAQs</Link></li>
-            <li><Link to="/procedures">Procedures</Link></li>
-            <li><Link to="/members">Member Directory</Link></li>
-            <li><Link to="/contactus">Contact Us</Link></li>
+            <li><Link to="/" onClick={this.props.onMenuToggle}>Home</Link></li>
+            <li><Link to="/faqs" onClick={this.props.onMenuToggle}>Plastic Surgery FAQs</Link></li>
+            <li><Link to="/procedures" onClick={this.props.onMenuToggle}>Procedures</Link></li>
+            <li><Link to="/members" onClick={this.props.onMenuToggle}>Member Directory</Link></li>
+            <li><Link to="/contactus" onClick={this.props.onMenuToggle}>Contact Us</Link></li>
           </ul>
           <div className="menu-info">
             <p>Utah Plastic Surgery Society</p>

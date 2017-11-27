@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import DarkNav from './DarkNav'
-// import Footer from './Footer'
 import WhatIsPS from '../components/FAQ-Content/WhatIsPS'
 import CSFAQs from '../components/FAQ-Content/CSFAQs'
 import WhatIsRS from '../components/FAQ-Content/WhatIsRS'
@@ -9,7 +8,6 @@ import RvsCS from '../components/FAQ-Content/RvsCS'
 import WhatIsUPSS from '../components/FAQ-Content/WhatIsUPSS'
 import WhySocietyDoc from '../components/FAQ-Content/WhySocietyDoc'
 
-// console.log('I am faqs props:', props)
 const FAQs = (props) => (
   <Router>
     <div>

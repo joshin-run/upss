@@ -896,6 +896,9 @@ a {
   height: 45px;
   width: auto; }
 
+.dark-upss-logo-pink {
+  cursor: pointer; }
+
 @media only screen and (min-width: 481px) {
   .logo-img,
   .menu-logo-img {

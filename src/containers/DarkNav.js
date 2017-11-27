@@ -6,7 +6,7 @@ import upssLogoPink from '../images/logos/upss-logo-sleek-mid-bold-pink.png'
 const DarkNav = (props) => (
       <div className="dark-navbar-wrapper">
         <div className="dark-navbar-container">
-          <img className="dark-upss-logo-pink"  src={upssLogoPink} alt="UPSS" />
+          <a href="/"><img className="dark-upss-logo-pink"  src={upssLogoPink} alt="UPSS" /></a>
           <div className="dark-hamburger-container">
             <div className="icon-container">
               <p className="dark-hamburger-text-icon" onClick={props.onMenuToggle}>&#9776;
