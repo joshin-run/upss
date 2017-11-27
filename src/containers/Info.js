@@ -32,8 +32,8 @@ class Info extends Component {
           <div className="upss-membership-container">
             <div className="upss-membership-content">
               <div className="upss-membership-text">
-                <p>In order to qualify for membership in the Utah Plastic Surgery Society, a surgeon must be properly trained and be certified by the <a href="https://www.abplasticsurgery.org/" target="_blank"><span className="link">American Board of Plastic Surgery.</span></a></p><br />
-                <p>Prospective patients can be assured that UPSS surgeons have successfully met the most rigorous academic and professional requirements, and have demonstrated outstanding surgical skill throughout their careers.</p>
+                <p>In order to qualify for membership in the Utah Plastic Surgery Society, a surgeon must be properly trained and be certified by the <a href="https://www.abplasticsurgery.org/" target="_blank"><span className="link">American Board of Plastic Surgery.</span></a></p>
+                <p><br />Prospective patients can be assured that UPSS surgeons have successfully met the most rigorous academic and professional requirements, and have demonstrated outstanding surgical skill throughout their careers.</p>
               </div>
               <img className="toon-doctor-image"  src={toonDoc} alt="Cartoon Male Doctor" />
             </div>

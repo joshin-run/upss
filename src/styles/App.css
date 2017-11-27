@@ -57,6 +57,9 @@
     font-size: 3.75rem; }
   .banner-text-container p:nth-child(2) {
     font-size: 2.75rem; } }
+.bannerbutton-container {
+  z-index: 5; }
+
 .bannerbutton {
   display: flex;
   flex-flow: row wrap;
