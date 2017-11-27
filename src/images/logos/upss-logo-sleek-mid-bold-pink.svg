@@ -3,20 +3,27 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 693 244" style="enable-background:new 0 0 693 244;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#DB7599;}
-	.st1{font-family:'Montserrat-ExtraLight';}
-	.st2{font-size:72px;}
-	.st3{font-family:'Montserrat-Regular';}
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:#DE7B9C;}
+	.st3{font-family:'Montserrat-Light';}
+	.st4{font-size:72px;}
+	.st5{font-family:'Montserrat-Medium';}
 </style>
-<g id="Layer_1">
-	<g id="Layer_2_1_">
-		<rect x="9" y="77" class="st0" width="677" height="5"/>
-		<rect x="9" y="161" class="st0" width="677" height="5"/>
-	</g>
+<g id="Layer_2" class="st0">
+	<rect class="st1" width="693" height="244"/>
 </g>
-<g id="Layer_2">
-	<text transform="matrix(1 0 0 1 115 64.6802)" class="st0 st1 st2">UTAH </text>
-	<text transform="matrix(1 0 0 1 9 148.6801)" class="st0 st3 st2">PLASTIC SURGERY</text>
-	<text transform="matrix(1 0 0 1 329 229.6802)" class="st0 st1 st2">SOCIETY</text>
+<g id="Layer_1">
+	<g id="Layer_1_1_">
+		<g id="Layer_2_1_">
+			<rect x="9" y="77" class="st2" width="677" height="5"/>
+			<rect x="9" y="161" class="st2" width="677" height="5"/>
+		</g>
+	</g>
+	<g id="Layer_2_2_">
+		<text transform="matrix(1 0 0 1 115 64.6802)" class="st2 st3 st4">UTAH </text>
+		<text transform="matrix(1 0 0 1 9 145.6801)" class="st2 st5 st4">PLASTIC SURGERY</text>
+		<text transform="matrix(1 0 0 1 329 229.6802)" class="st2 st3 st4">SOCIETY</text>
+	</g>
 </g>
 </svg>

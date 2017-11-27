@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import MenuNavLogo from '../components/MenuNavLogo'
 import hamburgerIconWhite from '../images/icons/hamburger-icon-thin-wh.svg'
-import upssLogoPink from '../images/logos/upss-logo-sleek-mid-bold-pink.svg'
+import upssLogoPink from '../images/logos/upss-logo-sleek-mid-bold-pink.png'
 
 const DarkNav = (props) => (
       <div className="dark-navbar-wrapper">

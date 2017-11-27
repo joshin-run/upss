@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import stethHeart from '../images/steth-heart.png'
-import upssLogoPink from '../images/logos/upss-logo-sleek-mid-bold-pink.svg'
+import upssLogoPink from '../images/logos/upss-logo-sleek-mid-bold-pink.png'
 import toonDoc from '../images/toon-doc.svg'
 import aspsLogo from '../images/logos/ASPS_logo_300dpi.jpg'
 import docComputer from '../images/doc-computer.png'
