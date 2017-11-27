@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Banner extends Component {
   render() {
     return (
-      <div id="contactus" className="contactUs-wrapper">
+      <div id="contact-us" className="contactUs-wrapper">
         <div className="contactUs-overlay">
           <div className="contactUs-text-container">
             <p className="title">Contact Us</p>

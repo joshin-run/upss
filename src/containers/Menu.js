@@ -27,7 +27,7 @@ class Menu extends Component {
             <li><Link to="/faqs" onClick={this.props.onMenuToggle}>Plastic Surgery FAQs</Link></li>
             <li><Link to="/procedures" onClick={this.props.onMenuToggle}>Procedures</Link></li>
             <li><Link to="/members" onClick={this.props.onMenuToggle}>Member Directory</Link></li>
-            <li><Link to="/contactus" onClick={this.props.onMenuToggle}>Contact Us</Link></li>
+            <li><Link to="/#contact-us" onClick={e => { this.props.onMenuToggle(e); document.getElementById('contact-us').scrollIntoView() }}>Contact Us</Link></li>
           </ul>
           <div className="menu-info">
             <p>Utah Plastic Surgery Society</p>
