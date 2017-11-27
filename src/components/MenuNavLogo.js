@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../images/logos/upss-logo-sleek-mid-bold.svg'
+import logo from '../images/logos/upss-logo-sleek-mid-bold-white.png'
 
 class MenuNavLogo extends Component {
   render() {
