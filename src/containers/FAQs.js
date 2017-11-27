@@ -12,6 +12,11 @@ const FAQs = (props) => (
   <Router>
     <div>
     <DarkNav onMenuToggle={props.onMenuToggle} />
+      <div className="title-bar">
+        <p className="title-bar_title">Plastic Surgery FAQs</p><br />
+        <p className="title-bar_subtitle">Take a look at some of the frequently asked questions</p>
+      </div>
+      
       <ul>
         <li><Link to="/what-is-plastic-surgery">What is Plastic Surgery?</Link></li>
         <li><Link to="/cosmetic-surgery-faqs">Cosmetic Surgery FAQs</Link></li>
@@ -20,8 +25,6 @@ const FAQs = (props) => (
         <li><Link to="/what-is-utah-plastic-surgery-society">What is the Utah Plastic Surgery Society?</Link></li>
         <li><Link to="/why-should-you-choose-a-society-doctor">Why Should You Choose a Society Doctor?</Link></li>
       </ul>
-
-      <hr/>
 
       <Route path="/what-is-plastic-surgery" component={WhatIsPS}/>
       <Route path="/cosmetic-surgery-faqs" component={CSFAQs}/>

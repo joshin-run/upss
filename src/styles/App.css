@@ -1210,7 +1210,7 @@ body {
   font-family: "Lato Bold", sans-serif;
   font-size: 4em;
   height: 100px;
-  widht: 100%;
+  width: 100%;
   background-color: #DB7599;
   color: #fff;
   padding: 20px; }
@@ -1221,6 +1221,27 @@ body {
   font-family: "Lato Hairline", sans-serif;
   padding: 20px;
   font-size: 2em; }
+
+.title-bar {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: #972f97;
+  padding: 50px; }
+  .title-bar .title-bar_title {
+    font-family: "Lato Bold", sans-serif;
+    font-size: 4em;
+    color: #fff;
+    margin: 0;
+    padding: 0; }
+  .title-bar .title-bar_subtitle {
+    color: #F9C0D3;
+    font-family: "Lato Hairline", sans-serif;
+    font-size: 2em;
+    margin: 0;
+    padding: 0; }
 
 .submenu-wrapper {
   display: flex;
