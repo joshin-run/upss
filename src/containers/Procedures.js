@@ -40,6 +40,10 @@ const Procedures = (props) => (
   <Router>
     <div>
     <DarkNav onMenuToggle={props.onMenuToggle} />
+    <div className="title-bar">
+      <p className="title-bar_title">Procedures</p><br />
+      <p className="title-bar_subtitle">Here is an extensive list of procedures</p>
+    </div>
     <div className="submenu-wrapper">
       <div className="submenu">
         <ul>

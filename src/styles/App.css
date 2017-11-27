@@ -435,6 +435,9 @@
   font-family: "Lato";
   src: url("../fonts/Lato/Lato-Regular.ttf"); }
 @font-face {
+  font-family: "Lato Light";
+  src: url("../fonts/Lato/Lato-Light.ttf"); }
+@font-face {
   font-family: "Lato Hairline";
   src: url("../fonts/Lato/Lato-Hairline.ttf"); }
 @font-face {
@@ -1197,30 +1200,21 @@ body {
     color: #fff;
     font-size: 0.75em; } }
 .procedures-wrapper {
-  font-family: "Lato Bold", sans-serif;
-  background-color: #DB7599;
-  color: #fff;
-  padding: 20px; }
+  font-family: "Lato Bold", sans-serif; }
 
 .procedure-title {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   font-family: "Lato Bold", sans-serif;
-  font-size: 4em;
-  height: 100px;
-  width: 100%;
-  background-color: #DB7599;
-  color: #fff;
-  padding: 20px; }
+  font-size: 2em;
+  border-bottom: 3px solid #5a1c5a; }
 
 .procedure-content {
-  background-color: #DB7599;
-  color: #fff;
-  font-family: "Lato Hairline", sans-serif;
-  padding: 20px;
-  font-size: 2em; }
+  font-family: "Lato Light", sans-serif;
+  font-size: 1.45em;
+  padding: 10px 0 0 0; }
 
 .title-bar {
   display: flex;
@@ -1250,20 +1244,20 @@ body {
   align-items: center; }
 
 .submenu {
-  width: 35%;
-  height: 100vh;
+  width: 40%;
+  height: auto;
   align-self: flex-start;
   background-color: #ab58ab;
   padding: 40px; }
   .submenu ul {
     list-style-type: none;
     line-height: 1.5;
-    font-size: 1.5em;
+    font-size: 1.15em;
     font-family: "Lato Hairline", sans-serif;
     color: #fff; }
 
 .submenu-body {
-  width: 65%;
+  width: 60%;
   height: 100%;
   align-self: flex-start;
   padding: 40px;
