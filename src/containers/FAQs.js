@@ -16,22 +16,26 @@ const FAQs = (props) => (
         <p className="title-bar_title">Plastic Surgery FAQs</p><br />
         <p className="title-bar_subtitle">Take a look at some of the frequently asked questions</p>
       </div>
-      
-      <ul>
-        <li><Link to="/what-is-plastic-surgery">What is Plastic Surgery?</Link></li>
-        <li><Link to="/cosmetic-surgery-faqs">Cosmetic Surgery FAQs</Link></li>
-        <li><Link to="/what-is-reconstructive-surgery">What is Reconstructive Surgery?</Link></li>
-        <li><Link to="/reconstructive-vs-cosmetic-surgery">Reconstructive vs. Cosmetic Surgery</Link></li>
-        <li><Link to="/what-is-utah-plastic-surgery-society">What is the Utah Plastic Surgery Society?</Link></li>
-        <li><Link to="/why-should-you-choose-a-society-doctor">Why Should You Choose a Society Doctor?</Link></li>
-      </ul>
-
-      <Route path="/what-is-plastic-surgery" component={WhatIsPS}/>
-      <Route path="/cosmetic-surgery-faqs" component={CSFAQs}/>
-      <Route path="/what-is-reconstructive-surgery" component={WhatIsRS}/>
-      <Route path="/reconstructive-vs-cosmetic-surgery" component={RvsCS}/>
-      <Route path="/what-is-utah-plastic-surgery-society" component={WhatIsUPSS}/>
-      <Route path="/why-should-you-choose-a-society-doctor" component={WhySocietyDoc}/>
+      <div className="submenu-wrapper">
+        <div className="submenu">
+          <ul>
+            <li><Link to="/what-is-plastic-surgery">What is Plastic Surgery?</Link></li>
+            <li><Link to="/cosmetic-surgery-faqs">Cosmetic Surgery FAQs</Link></li>
+            <li><Link to="/what-is-reconstructive-surgery">What is Reconstructive Surgery?</Link></li>
+            <li><Link to="/reconstructive-vs-cosmetic-surgery">Reconstructive vs. Cosmetic Surgery</Link></li>
+            <li><Link to="/what-is-utah-plastic-surgery-society">What is the Utah Plastic Surgery Society?</Link></li>
+            <li><Link to="/why-should-you-choose-a-society-doctor">Why Should You Choose a Society Doctor?</Link></li>
+          </ul>
+        </div>
+        <div className="submenu-body">
+          <Route path="/what-is-plastic-surgery" component={WhatIsPS}/>
+          <Route path="/cosmetic-surgery-faqs" component={CSFAQs}/>
+          <Route path="/what-is-reconstructive-surgery" component={WhatIsRS}/>
+          <Route path="/reconstructive-vs-cosmetic-surgery" component={RvsCS}/>
+          <Route path="/what-is-utah-plastic-surgery-society" component={WhatIsUPSS}/>
+          <Route path="/why-should-you-choose-a-society-doctor" component={WhySocietyDoc}/>
+        </div>
+      </div>  
     </div>
   </Router>
 )

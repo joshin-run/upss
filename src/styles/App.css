@@ -1247,27 +1247,30 @@ body {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  align-items: center;
-  background-color: #f3e8f3; }
+  align-items: center; }
 
 .submenu {
-  width: auto;
-  height: auto;
+  width: 35%;
+  height: 100vh;
   align-self: flex-start;
-  background-color: #972f97;
-  padding: 40px;
-  border-right: 1px solid #7f3a46; }
+  background-color: #ab58ab;
+  padding: 40px; }
   .submenu ul {
     list-style-type: none;
     line-height: 1.5;
-    font-size: 1.25em;
+    font-size: 1.5em;
     font-family: "Lato Hairline", sans-serif;
     color: #fff; }
 
 .submenu-body {
-  width: 100%;
+  width: 65%;
   height: 100%;
-  align-self: flex-start; }
+  align-self: flex-start;
+  padding: 40px;
+  font-size: 1.25em;
+  font-family: "Lato", sans-serif;
+  color: #5a1c5a;
+  background-color: #fff; }
 
 .whitebar-wrapper {
   height: 150px;
