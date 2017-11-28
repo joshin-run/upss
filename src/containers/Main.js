@@ -33,13 +33,13 @@ class Main extends Component {
         />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/faqs" render={(props) => (
+          <Route path="/faqs" render={(props) => (
             <FAQs {...props} onMenuToggle={this.toggleMenu} />
           )} />
-          <Route exact path="/procedures" render={(props) => (
+          <Route path="/procedures" render={(props) => (
             <Procedures {...props} onMenuToggle={this.toggleMenu} />
           )} />
-          <Route exact path="/members" render={(props) => (
+          <Route path="/members" render={(props) => (
             <Members {...props} onMenuToggle={this.toggleMenu} />
           )} />
         </Switch>
