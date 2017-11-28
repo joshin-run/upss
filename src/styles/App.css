@@ -392,15 +392,15 @@
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  background-color: #f9c0d4;
-  width: 100vw; }
+  background-color: #DB7599;
+  width: 100vw;
+  border-top: 1px solid #fff; }
 
 .footer-copy-text {
   font-size: 0.75em;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Lato Hairline", sans-serif;
   padding: 25px 0 25px 0;
-  color: #fe019a;
-  font-weight: bold; }
+  color: #fff; }
 
 .copy-text {
   text-align: center; }
