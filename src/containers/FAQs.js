@@ -35,7 +35,7 @@ const FAQs = (props) => (
           <Route path="/what-is-utah-plastic-surgery-society" component={WhatIsUPSS}/>
           <Route path="/why-should-you-choose-a-society-doctor" component={WhySocietyDoc}/>
         </div>
-      </div>  
+      </div>
     </div>
   </Router>
 )
