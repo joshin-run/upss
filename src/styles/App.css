@@ -1208,12 +1208,12 @@ body {
   justify-content: flex-start;
   align-items: center;
   font-family: "Lato Bold", sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
   border-bottom: 3px solid #5a1c5a; }
 
 .procedure-content {
   font-family: "Lato Light", sans-serif;
-  font-size: 1.45em;
+  font-size: 1.25em;
   padding: 10px 0 0 0; }
 
 .title-bar {
