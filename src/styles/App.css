@@ -358,6 +358,11 @@
     font-family: "Chivo";
     color: #fff;
     font-size: 0.75em; } }
+.faqs-content {
+  font-family: "Lato Light", sans-serif;
+  font-size: 1.25em;
+  padding: 10px 0 0 0; }
+
 .footer-wrapper {
   margin: 0;
   padding: 0;
