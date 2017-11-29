@@ -28,10 +28,9 @@ class FeaturedMembers extends Component {
   render() {
     return (
       <div className="featured-members-wrapper">
-        <p className="page-header">Featured Members</p>
-        <p className="header-sub-title">All Society Members are</p>
-        <p className="header-sub-title">Board Certified by</p>
-        <a href="https://www.plasticsurgery.org/"><p className="content">The American Board of Plastic Surgery</p></a>
+        <p className="member-page-header">Featured Members</p>
+        <p className="member-header-sub-title">All Society Members are Board Certified by</p>
+        <a href="https://www.plasticsurgery.org/"><p className="member-content doc-titles-section">The American Board of Plastic Surgery</p></a>
 
         <div className="featured-members-card-container">
           <div className="featured-member-card">

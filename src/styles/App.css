@@ -109,7 +109,6 @@
   text-align: center;
   text-decoration: none !important;
   color: #5D76D8;
-  margin-bottom: 20px;
   cursor: pointer; }
 
 .contactUs-wrapper {
@@ -559,6 +558,29 @@
   padding: 50px 10px 50px 10px;
   background-color: #EFEFEF; }
 
+.member-page-header {
+  font-size: 1.85em;
+  font-family: "Oxygen Bold", sans-serif;
+  color: #000;
+  text-decoration: underline #0F8EE3;
+  line-height: 35px;
+  margin-bottom: 10px; }
+
+.member-header-sub-title {
+  font-size: 0.95em;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  color: #000;
+  margin: 0; }
+
+.member-content {
+  font-size: 0.9em;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  text-decoration: none !important;
+  color: #5D76D8;
+  cursor: pointer; }
+
 .featured-members-card-container {
   display: flex;
   flex-flow: row wrap;
@@ -605,6 +627,18 @@
     color: #5D76D8;
     font-size: 0.75em; }
 
+@media only screen and (min-width: 769px) {
+  .featured-members-wrapper {
+    padding: 135px 10px 135px 10px; }
+
+  .member-page-header {
+    font-size: 3em; }
+
+  .member-header-sub-title {
+    font-size: 1.75em; }
+
+  .member-content {
+    font-size: 1.25em; } }
 .header-wrapper {
   display: flex;
   flex-flow: column wrap;
@@ -1013,6 +1047,15 @@ body {
     color: #5D76D8;
     font-size: 0.8em; }
 
+.doc-titles-section {
+  margin-bottom: 30px; }
+
+@media only screen and (min-width: 769px) {
+  .members-wrapper {
+    padding: 90px 10px 135px 10px; }
+
+  .doc-titles-section {
+    margin-bottom: 70px; } }
 .menu-wrapper {
   display: flex;
   flex-direction: column;

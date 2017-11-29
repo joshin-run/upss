@@ -8,6 +8,31 @@
   padding: 50px 10px 50px 10px
   background-color: $light-gray
 
+.member-page-header
+  font-size: 1.85em
+  font-family: 'Oxygen Bold', sans-serif
+  color: #000
+  // border-bottom: 3px solid $heading-line-blue
+  text-decoration: underline $heading-line-blue
+  line-height: 35px
+  margin-bottom: 10px
+
+.member-header-sub-title
+  font-size: .95em
+  font-family: 'Source Sans Pro', sans-serif
+  text-align: center
+  color: #000
+  margin: 0
+
+.member-content
+  font-size: .90em
+  font-family: 'Source Sans Pro', sans-serif
+  text-align: center
+  text-decoration: none !important
+  color: $blue-button
+  // margin-bottom: 20px
+  cursor: pointer
+
 .featured-members-card-container
   display: flex
   flex-flow: row wrap
@@ -60,3 +85,20 @@
   .featured-member-site
     color: #5D76D8
     font-size: .75em
+
+@media only screen and (min-width: 769px)
+
+  .featured-members-wrapper
+    padding: 135px 10px 135px 10px
+
+  .member-page-header
+    font-size: 3em
+
+  .member-header-sub-title
+    font-size: 1.75em
+
+  .member-content
+    font-size: 1.25em
+
+  // .member-content
+  //   font-size: .90em
