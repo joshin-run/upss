@@ -403,14 +403,19 @@
   padding: 0;
   width: 100vw; }
 
+.upss-sq-logo {
+  height: 80px;
+  width: auto;
+  margin-bottom: 20px; }
+
 .footer-info-container {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
   justify-content: space-between;
   align-items: center;
   background-color: #DB7599;
-  padding: 30px;
-  height: 300px;
+  padding: 75px;
+  height: auto;
   width: 100vw; }
 
 .footer-info {
@@ -423,9 +428,10 @@
 
 .footer-media {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row nowrap;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 10px; }
 
 .footer-copy {
   display: flex;
@@ -433,13 +439,11 @@
   justify-content: center;
   align-items: center;
   background-color: #DB7599;
-  width: 100vw;
-  border-top: 1px solid #fff; }
+  width: 100vw; }
 
 .footer-copy-text {
   font-size: 0.75em;
-  font-family: "Lato Hairline", sans-serif;
-  padding: 25px 0 25px 0;
+  font-family: "Lato Light", sans-serif;
   color: #fff; }
 
 .copy-text {
@@ -451,15 +455,9 @@
 .media {
   height: 35px;
   width: 35px;
-  margin: 10px;
+  margin: 4px;
   background-color: #DB7599; }
 
-@media only screen and (min-width: 481px) {
-  .footer-media {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center; } }
 /*** Chivo ** */
 @font-face {
   font-family: "Chivo";
