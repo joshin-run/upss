@@ -1165,8 +1165,8 @@ body {
     padding: 0; }
 
   .ex {
-    height: 40px;
-    width: 40px; }
+    height: 35px;
+    width: 35px; }
 
   .menu-items-wrapper {
     align-items: center; }
@@ -1270,7 +1270,7 @@ body {
     font-size: 0.8em; }
 
   .thin-hamburger {
-    height: 28px; } }
+    height: 23px; } }
 .dark-navbar-wrapper {
   display: flex;
   flex-flow: row nowrap;

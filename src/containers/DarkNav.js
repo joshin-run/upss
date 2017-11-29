@@ -12,7 +12,7 @@ const DarkNav = (props) => (
             <div className="icon-container">
               <img className="thin-hamburger" src={hamburgerIconPink} onClick={props.onMenuToggle} />
             </div>
-            <p className="hamburger-menu-pink" onClick={props.onMenuToggle}>MENU</p>
+            
           </div>
         </div>
       </div>
