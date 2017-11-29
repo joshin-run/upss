@@ -1,15 +1,15 @@
 .title-bar
   display: flex
-  flex-flow: column wrap
+  flex-flow: row wrap
   justify-content: center
   align-items: center
   width: 100vw
   background-color: #972f97
-  padding: 50px
+  padding: 15px
 
   .title-bar_title
     font-family: 'Lato Bold', sans-serif
-    font-size: 4em
+    font-size: 1.85em
     color: #fff
     margin: 0
     padding: 0
@@ -17,38 +17,65 @@
   .title-bar_subtitle
     color: #F9C0D3
     font-family: 'Lato Hairline', sans-serif
-    font-size: 2em
+    font-size: 1em
     margin: 0
     padding: 0
 
 .submenu-wrapper
-  display: flex
-  flex-flow: row nowrap
-  justify-content: space-between
-  align-items: center
+  display: block
   // background-color: #d9b3d9
   // color: #fff
 
 .submenu
-  width: 40%
+  width: 100%
   height: auto
-  align-self: flex-start
   background-color: #ab58ab
   // background-color: #a143a1
-  padding: 40px
+  padding: 20px
   ul
     list-style-type: none
     line-height: 1.5
-    font-size: 1.15em
+    font-size: .90em
     font-family: 'Lato Hairline', sans-serif
     color: #fff
 
 .submenu-body
-  width: 60%
+  width: 100%
   height: 100%
-  align-self: flex-start
-  padding: 40px
+  padding: 20px
   font-size: 1.25em
   font-family: 'Lato', sans-serif
   color: #5a1c5a
   background-color: #fff
+
+@media only screen and (min-width: 481px)
+
+
+  .title-bar
+    flex-flow: column wrap
+    padding: 50px
+
+    .title-bar_title
+      font-size: 4em
+
+    .title-bar_subtitle
+      font-size: 2em
+
+  .submenu-wrapper
+    display: flex
+    flex-flow: row nowrap
+    justify-content: space-between
+    align-items: center
+
+  .submenu
+    padding: 40px
+    width: 40%
+    align-self: flex-start
+    ul
+      line-height: 1.5
+      font-size: 1.15em
+
+  .submenu-body
+    width: 60%
+    align-self: flex-start
+    padding: 40px

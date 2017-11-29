@@ -43,6 +43,7 @@ const Procedures = (props) => (
     <div className="title-bar">
       <p className="title-bar_title">Procedures</p><br />
       <p className="title-bar_subtitle">Here is an extensive list of procedures</p>
+      <p className="title-bar_subtitle">(See selection below)</p>
     </div>
     <div className="submenu-wrapper">
       <div className="submenu">

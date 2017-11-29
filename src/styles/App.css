@@ -360,12 +360,12 @@
     font-size: 0.75em; } }
 .faqs-title {
   font-family: "Lato Bold", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.25em;
   border-bottom: 3px solid #5a1c5a; }
 
 .faqs-content {
   font-family: "Lato", sans-serif;
-  font-size: 0.85em;
+  font-size: 0.65em;
   padding: 10px 0 0 0; }
   .faqs-content ul {
     margin-top: 10px;
@@ -376,6 +376,16 @@
   font-size: 1.111em;
   font-weight: bold; }
 
+@media only screen and (min-width: 481px) {
+  .faqs-title {
+    font-size: 1.5em; }
+
+  .faqs-content {
+    font-size: 0.85em;
+    padding: 10px 0 0 0; }
+    .faqs-content ul {
+      margin-top: 10px;
+      padding-left: 40px; } }
 .footer-wrapper {
   margin: 0;
   padding: 0;
@@ -920,20 +930,26 @@ a {
   height: 45px;
   width: auto; }
 
+.menu-logo-img,
 .dark-upss-logo-pink {
+  height: 35px;
+  width: auto;
   cursor: pointer; }
 
 @media only screen and (min-width: 481px) {
   .logo-img,
-  .menu-logo-img {
+  .menu-logo-img,
+  .dark-upss-logo-pink {
     height: 55px; } }
 @media only screen and (min-width: 769px) {
   .logo-img,
-  .menu-logo-img {
+  .menu-logo-img,
+  .dark-upss-logo-pink {
     height: 65px; } }
 @media only screen and (min-width: 1450px) {
   .logo-img,
-  .menu-logo-img {
+  .menu-logo-img,
+  .dark-upss-logo-pink {
     height: 75px; } }
 * {
   margin: 0;
@@ -1064,7 +1080,8 @@ body {
   z-index: 10;
   list-style-type: none;
   z-index: 10;
-  cursor: pointer; }
+  cursor: pointer;
+  margin-bottom: 50px; }
   .menu-items-container li {
     font-size: 1.95rem;
     text-align: center;
@@ -1226,64 +1243,93 @@ body {
   justify-content: flex-start;
   align-items: center;
   font-family: "Lato Bold", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.25em;
   border-bottom: 3px solid #5a1c5a; }
 
 .procedure-content {
-  font-family: "Lato Light", sans-serif;
-  font-size: 1.25em;
+  font-family: "Lato", sans-serif;
+  font-size: 0.65em;
   padding: 10px 0 0 0; }
 
+@media only screen and (min-width: 481px) {
+  .procedure-title {
+    font-size: 1.5em; }
+
+  .procedure-content {
+    font-family: "Lato Light", sans-serif;
+    font-size: 1.25em; } }
 .title-bar {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   width: 100vw;
   background-color: #972f97;
-  padding: 50px; }
+  padding: 15px; }
   .title-bar .title-bar_title {
     font-family: "Lato Bold", sans-serif;
-    font-size: 4em;
+    font-size: 1.85em;
     color: #fff;
     margin: 0;
     padding: 0; }
   .title-bar .title-bar_subtitle {
     color: #F9C0D3;
     font-family: "Lato Hairline", sans-serif;
-    font-size: 2em;
+    font-size: 1em;
     margin: 0;
     padding: 0; }
 
 .submenu-wrapper {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center; }
+  display: block; }
 
 .submenu {
-  width: 40%;
+  width: 100%;
   height: auto;
-  align-self: flex-start;
   background-color: #ab58ab;
-  padding: 40px; }
+  padding: 20px; }
   .submenu ul {
     list-style-type: none;
     line-height: 1.5;
-    font-size: 1.15em;
+    font-size: 0.9em;
     font-family: "Lato Hairline", sans-serif;
     color: #fff; }
 
 .submenu-body {
-  width: 60%;
+  width: 100%;
   height: 100%;
-  align-self: flex-start;
-  padding: 40px;
+  padding: 20px;
   font-size: 1.25em;
   font-family: "Lato", sans-serif;
   color: #5a1c5a;
   background-color: #fff; }
 
+@media only screen and (min-width: 481px) {
+  .title-bar {
+    flex-flow: column wrap;
+    padding: 50px; }
+    .title-bar .title-bar_title {
+      font-size: 4em; }
+    .title-bar .title-bar_subtitle {
+      font-size: 2em; }
+
+  .submenu-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center; }
+
+  .submenu {
+    padding: 40px;
+    width: 40%;
+    align-self: flex-start; }
+    .submenu ul {
+      line-height: 1.5;
+      font-size: 1.15em; }
+
+  .submenu-body {
+    width: 60%;
+    align-self: flex-start;
+    padding: 40px; } }
 .whitebar-wrapper {
   height: 150px;
   width: 100vw; }

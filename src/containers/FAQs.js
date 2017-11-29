@@ -14,7 +14,7 @@ const FAQs = ( props ) => (
     <DarkNav onMenuToggle={props.onMenuToggle} />
       <div className="title-bar">
         <p className="title-bar_title">Plastic Surgery FAQs</p><br />
-        <p className="title-bar_subtitle">Take a look at some of the frequently asked questions</p>
+        <p className="title-bar_subtitle">Choose from one of the following:</p>
       </div>
       <div className="submenu-wrapper">
         <div className="submenu">
