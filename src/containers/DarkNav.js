@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import MenuNavLogo from '../components/MenuNavLogo'
 import hamburgerIconWhite from '../images/icons/hamburger-icon-thin-wh.svg'
-import upssLogoPink from '../images/logos/upss-logo-sleek-mid-bold-pink2.png'
+import UPSSLogoSqPink from '../images/logos/upss-logo-sq-pk.png'
 
 const DarkNav = (props) => (
       <div className="dark-navbar-wrapper">
         <div className="dark-navbar-container">
-          <a href="/"><img className="dark-upss-logo-pink"  src={upssLogoPink} alt="UPSS" /></a>
+          <a href="/"><img className="dark-upss-logo-pink"  src={UPSSLogoSqPink} alt="UPSS" /></a>
           <div className="dark-hamburger-container">
             <div className="icon-container">
               <p className="dark-hamburger-text-icon" onClick={props.onMenuToggle}>&#9776;

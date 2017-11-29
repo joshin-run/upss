@@ -605,7 +605,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   height: 120px;
-  width: 290px;
+  width: 280px;
   background-color: #FFFFFF;
   padding: 5px;
   box-shadow: -1px 2px 3px rgba(0, 0, 0, 0.2);
@@ -626,14 +626,12 @@
     width: auto;
     margin-left: 12px; }
   .featured-member-card .featured-member-name {
-    font-size: 0.87em;
-    font-weight: bold; }
+    font-size: 0.87em; }
   .featured-member-card .featured-member-address {
     font-size: 0.87em;
     font-weight: normal; }
   .featured-member-card .featured-member-phone-number {
-    font-size: 0.87em;
-    font-weight: bold; }
+    font-size: 0.87em; }
   .featured-member-card .featured-member-site {
     color: #5D76D8;
     font-size: 0.75em; }
@@ -949,7 +947,7 @@ a {
   color: #5D76D8; }
 
 .logo-img {
-  height: 45px;
+  height: 60px;
   margin-top: 3px;
   padding: 0; }
 
@@ -968,35 +966,32 @@ a {
 
 .upss-logo-pink {
   margin: 20px 30px 20px 30px;
-  height: 50px;
+  height: 70px;
   width: auto; }
 
 .menu-logo-img {
-  height: 45px;
+  height: 60px;
   width: auto; }
 
 .menu-logo-img,
 .dark-upss-logo-pink {
-  height: 35px;
+  height: 60px;
   width: auto;
   margin-top: 5px;
   cursor: pointer; }
 
-@media only screen and (min-width: 481px) {
-  .logo-img,
-  .menu-logo-img,
-  .dark-upss-logo-pink {
-    height: 55px; } }
 @media only screen and (min-width: 769px) {
-  .logo-img,
+  .logo-img {
+    height: 85px; }
+
   .menu-logo-img,
   .dark-upss-logo-pink {
-    height: 65px; } }
+    height: 85px; } }
 @media only screen and (min-width: 1450px) {
   .logo-img,
   .menu-logo-img,
   .dark-upss-logo-pink {
-    height: 75px; } }
+    height: 100px; } }
 * {
   margin: 0;
   padding: 0;
@@ -1109,8 +1104,8 @@ body {
     border: 1px solid #fe019a; }
 
 .ex {
-  height: 12px;
-  width: 12px;
+  height: 20px;
+  width: 20px;
   color: white;
   z-index: 10; }
 
@@ -1225,7 +1220,9 @@ body {
     justify-content: space-between;
     align-items: center;
     height: auto;
-    width: 100vw; }
+    width: 100vw;
+    margin: 0;
+    padding: 0; }
 
 @media only screen and (min-width: 481px) {
   .navbar-wrapper {
@@ -1253,11 +1250,11 @@ body {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     padding: 2px 2px 2px 2px;
     margin-bottom: 5px;
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     transition: 0.4s ease-in-out; }
     .hamburger-container .icon-container:hover {
@@ -1266,11 +1263,11 @@ body {
 .hamburger-menu {
   font-family: "Chivo";
   color: #fff;
-  font-size: 0.5em; }
+  font-size: 0.75em; }
 
 .hamburger-text-icon {
   color: #fff;
-  font-size: 0.75em;
+  font-size: 1.5em;
   line-height: 1; }
 
 @media only screen and (min-width: 481px) {

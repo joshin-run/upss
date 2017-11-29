@@ -9,10 +9,6 @@ class Banner extends Component {
     this.state = {}
   }
 
-  // toggleMenu = () => {
-  //   this.props.onToggleMenu()
-  // }
-
   render() {
     return (
       <div className="banner-wrapper">
