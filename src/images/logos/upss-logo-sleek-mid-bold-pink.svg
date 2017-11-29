@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 693 244" style="enable-background:new 0 0 693 244;" xml:space="preserve">
+	 viewBox="0 0 677 216.7" style="enable-background:new 0 0 677 216.7;" xml:space="preserve">
 <style type="text/css">
 	.st0{display:none;}
 	.st1{display:inline;}
@@ -11,19 +11,19 @@
 	.st5{font-family:'Montserrat-Medium';}
 </style>
 <g id="Layer_2" class="st0">
-	<rect class="st1" width="693" height="244"/>
+	<rect x="-9" y="-14.5" class="st1" width="693" height="244"/>
 </g>
 <g id="Layer_1">
 	<g id="Layer_1_1_">
 		<g id="Layer_2_1_">
-			<rect x="9" y="77" class="st2" width="677" height="5"/>
-			<rect x="9" y="161" class="st2" width="677" height="5"/>
+			<rect y="62.5" class="st2" width="677" height="5"/>
+			<rect y="146.5" class="st2" width="677" height="5"/>
 		</g>
 	</g>
 	<g id="Layer_2_2_">
-		<text transform="matrix(1 0 0 1 115 64.6802)" class="st2 st3 st4">UTAH </text>
-		<text transform="matrix(1 0 0 1 9 145.6801)" class="st2 st5 st4">PLASTIC SURGERY</text>
-		<text transform="matrix(1 0 0 1 329 229.6802)" class="st2 st3 st4">SOCIETY</text>
+		<text transform="matrix(1 0 0 1 106 50.1992)" class="st2 st3 st4">UTAH </text>
+		<text transform="matrix(1 0 0 1 0 131.1991)" class="st2 st5 st4">PLASTIC SURGERY</text>
+		<text transform="matrix(1 0 0 1 320 215.1992)" class="st2 st3 st4">SOCIETY</text>
 	</g>
 </g>
 </svg>

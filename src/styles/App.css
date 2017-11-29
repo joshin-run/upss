@@ -968,6 +968,7 @@ a {
 .dark-upss-logo-pink {
   height: 35px;
   width: auto;
+  margin-top: 5px;
   cursor: pointer; }
 
 @media only screen and (min-width: 481px) {
