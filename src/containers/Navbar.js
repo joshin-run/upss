@@ -8,10 +8,6 @@ class Navbar extends Component {
     console.log('Navbar props:', props)
     this.state = {}
   }
-  //
-  // toggleMenu = () => {
-  //   this.props.onToggleMenu()
-  // }
 
   render() {
     return (
