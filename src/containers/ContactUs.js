@@ -7,6 +7,12 @@ class Banner extends Component {
         <div className="contactUs-overlay">
           <div className="contactUs-text-container">
             <p className="title">Contact Us</p>
+            <div className="contact-info">
+              <p>Utah Plastic Surgery Society</p>
+              <p>310 East 4500 South, Suite 500</p>
+              <p>Salt Lake City, UT 84107-4250</p>
+              <p>(801) 747-3500</p>
+            </div>
             <form action="">
               <fieldset className="fieldset">
                 <p className="form-label">Full name:</p>

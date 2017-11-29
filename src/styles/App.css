@@ -117,7 +117,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+  height: 100vh;
   width: 100vw;
   background-image: url(../images/bryce-canyon.jpg);
   z-index: 0;
@@ -134,7 +134,7 @@
   align-items: center;
   position: absolute;
   z-index: 10;
-  height: inherit;
+  height: 100vh;
   width: 100vw;
   background-color: rgba(219, 117, 153, 0.8); }
 
@@ -143,14 +143,23 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   font-weight: lighter;
   z-index: 200; }
   .contactUs-text-container .title {
-    font-size: 1.5rem;
+    font-size: 2.95rem;
     font-family: "Lato Hairline", sans-serif;
     margin-bottom: 8px;
     width: 100vw;
     text-align: center; }
+  .contactUs-text-container .contact-info {
+    font-size: 0.75em;
+    font-family: "Lato Light", sans-serif;
+    color: #fff;
+    text-align: center; }
+    .contactUs-text-container .contact-info p:nth-child(1) {
+      font-family: "Lato Bold", sans-serif;
+      font-size: 1.5em; }
   .contactUs-text-container .fieldset {
     height: auto;
     width: 100vw;
@@ -217,13 +226,18 @@
 
   .contactUs-text-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     font-family: "Lato", sans-serif;
     z-index: 200;
     margin-bottom: 20px; }
+    .contactUs-text-container .contact-info {
+      font-size: 1em;
+      margin-bottom: 30px; }
+      .contactUs-text-container .contact-info p:nth-child(1) {
+        font-size: 1.25em; }
     .contactUs-text-container .title {
       font-size: 3.15rem;
       margin-bottom: 15px;
@@ -593,7 +607,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   height: 120px;
-  width: 280px;
+  width: 290px;
   background-color: #FFFFFF;
   padding: 5px;
   box-shadow: -1px 2px 3px rgba(0, 0, 0, 0.2);
@@ -614,7 +628,7 @@
     width: auto;
     margin-left: 12px; }
   .featured-member-card .featured-member-name {
-    font-size: 1em;
+    font-size: 0.87em;
     font-weight: bold; }
   .featured-member-card .featured-member-address {
     font-size: 0.87em;
