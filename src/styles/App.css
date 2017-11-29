@@ -11,7 +11,8 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 5; }
+  z-index: 5;
+  padding: 30px; }
 
 .banner-gradient {
   display: flex;
@@ -48,6 +49,9 @@
       font-family: "Lato Bold", sans-serif; }
 
 @media only screen and (min-width: 481px) {
+  .banner-image {
+    padding: 40px; }
+
   .banner-text-container p:nth-child(1) {
     font-size: 2.75rem; }
   .banner-text-container p:nth-child(2) {
@@ -341,10 +345,6 @@
   color: #DB7599;
   font-size: 1.5em;
   line-height: 1; }
-
-.dark-upss-logo-pink {
-  width: auto;
-  height: 60px; }
 
 @media only screen and (min-width: 481px) {
   .dark-navbar-wrapper .dark-navbar-container {
@@ -965,28 +965,22 @@ a {
   height: 70px;
   width: auto; }
 
-.menu-logo-img {
-  height: 60px;
-  width: auto; }
-
 .menu-logo-img,
-.dark-upss-logo-pink {
+.dark-upss-logo-pink,
+.sq-upss-logo-pink {
   height: 60px;
   width: auto;
   margin-top: 5px;
   cursor: pointer; }
 
 @media only screen and (min-width: 769px) {
-  .logo-img {
-    height: 85px; }
-
-  .menu-logo-img,
-  .dark-upss-logo-pink {
-    height: 85px; } }
-@media only screen and (min-width: 1450px) {
   .logo-img,
   .menu-logo-img,
-  .dark-upss-logo-pink {
+  .dark-upss-logo-pink,
+  .sq-upss-logo-pink {
+    height: 85px; } }
+@media only screen and (min-width: 1450px) {
+  .sq-upss-logo-pink {
     height: 100px; } }
 * {
   margin: 0;
@@ -1075,8 +1069,8 @@ body {
   -webkit-transition: 0.3s ease all;
   transition: 0.3s ease all;
   background-color: #fe019a;
-  padding: 0 20px 20px 0;
-  z-index: 10; }
+  z-index: 10;
+  padding: 30px; }
   .menu-wrapper.open {
     -webkit-transform: translateX(100vw);
     transform: translateX(100vw);
@@ -1090,8 +1084,8 @@ body {
   border: 1px solid #000;
   padding: 1px 1px 0px 0px;
   margin-bottom: 5px;
-  height: 21px;
-  width: 21px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   transition: 0.4s ease-in-out;
   cursor: pointer;
@@ -1100,8 +1094,8 @@ body {
     border: 1px solid #fe019a; }
 
 .ex {
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   color: white;
   z-index: 10; }
 
@@ -1160,7 +1154,7 @@ body {
 
 @media only screen and (min-width: 481px) {
   .menu-wrapper {
-    padding: 10px 0 40px 0;
+    padding: 40px;
     align-items: center;
     z-index: 10; }
 
@@ -1171,15 +1165,15 @@ body {
     padding: 0; }
 
   .ex {
-    height: 20px;
-    width: 20px; }
+    height: 40px;
+    width: 40px; }
 
   .menu-items-wrapper {
     align-items: center; }
 
   .menu-items-container {
     align-items: center;
-    margin-bottom: 100px; }
+    margin-bottom: 30px; }
     .menu-items-container li {
       font-size: 3.25rem; }
 
@@ -1192,7 +1186,7 @@ body {
     width: 40px; } }
 @media only screen and (min-width: 769px) {
   .menu-items-container {
-    margin-bottom: 75px; }
+    margin-bottom: 55px; }
     .menu-items-container li {
       font-size: 3.5rem; } }
 .navbar-wrapper {
@@ -1201,9 +1195,8 @@ body {
   justify-content: center;
   align-items: center;
   height: auto;
-  width: 100vw;
+  width: 100%;
   background: transparent;
-  padding: 20px 20px 0px 20px;
   z-index: 6;
   align-self: flex-start;
   top: 0;
@@ -1215,23 +1208,11 @@ body {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    height: auto;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0; }
 
-@media only screen and (min-width: 481px) {
-  .navbar-wrapper {
-    padding: 30px 40px 0 40px; }
-    .navbar-wrapper .navbar-container {
-      display: flex;
-      flex-flow: row nowrap;
-      justify-content: space-between;
-      align-items: center;
-      height: auto; } }
-@media only screen and (min-width: 769px) {
-  .navbar-wrapper {
-    padding: 40px 55px 0 55px; } }
 @media only screen and (min-width: 1450px) {
   .navbar-wrapper .navbar-container {
     width: 75vw; } }
@@ -1246,39 +1227,132 @@ body {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    border: 2px solid #fff;
-    padding: 2px 2px 2px 2px;
-    margin-bottom: 5px;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
+    margin: 0;
+    padding: 0;
     transition: 0.4s ease-in-out; }
-    .hamburger-container .icon-container:hover {
-      border: 2px solid #fe019a; }
 
 .hamburger-menu {
-  font-family: "Chivo";
+  font-family: "Lato Light";
   color: #fff;
-  font-size: 0.75em; }
+  font-size: 0.3em; }
+
+.hamburger-menu-pink {
+  font-family: "Lato Light";
+  color: #DB7599;
+  font-size: 0.3em; }
 
 .hamburger-text-icon {
   color: #fff;
   font-size: 1.5em;
   line-height: 1; }
 
+.thin-hamburger {
+  height: 17px;
+  width: auto;
+  margin: 3px 0 8px 0; }
+
 @media only screen and (min-width: 481px) {
   .hamburger-container .icon-container {
-    border: 3px solid #fff;
+    height: 40px;
+    width: 40px; }
+
+  .hamburger-text-icon {
+    font-size: 2.5em; }
+
+  .hamburger-menu {
+    font-family: "Lato Light";
+    color: #fff;
+    font-size: 0.8em; }
+
+  .hamburger-menu-pink {
+    font-family: "Lato Light";
+    color: #DB7599;
+    font-size: 0.8em; }
+
+  .thin-hamburger {
+    height: 28px; } }
+.dark-navbar-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100vw;
+  background: transparent;
+  z-index: 6;
+  align-self: flex-start;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0; }
+  .dark-navbar-wrapper .dark-navbar-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+    padding: 8px 20px; }
+
+.dark-upss-logo-pink {
+  width: auto;
+  height: 40px; }
+
+.dark-hamburger-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; }
+  .dark-hamburger-container .icon-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #DB7599;
+    padding: 2px 2px 2px 2px;
+    margin-bottom: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transition: 0.4s ease-in-out; }
+    .dark-hamburger-container .icon-container:hover {
+      border: 2px solid #fe019a; }
+
+.dark-hamburger-menu {
+  font-family: "Chivo";
+  color: #DB7599;
+  font-size: 0.75em; }
+
+.dark-hamburger-text-icon {
+  color: #DB7599;
+  font-size: 1.5em;
+  line-height: 1; }
+
+.dark-upss-logo-pink {
+  width: auto;
+  height: 60px; }
+
+@media only screen and (min-width: 481px) {
+  .dark-navbar-wrapper .dark-navbar-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: auto; }
+
+  .dark-hamburger-container .icon-container {
+    border: 3px solid #DB7599;
     height: 40px;
     width: 40px;
     padding: 0; }
-    .hamburger-container .icon-container:hover {
+    .dark-hamburger-container .icon-container:hover {
       border: 3px solid #fe019a; }
 
-  .hamburger-text-icon {
+  .dark-hamburger-text-icon {
     font-size: 1.5em; }
 
-  .hamburger-menu {
+  .dakr-hamburger-menu {
     font-family: "Chivo";
     color: #fff;
     font-size: 0.75em; } }

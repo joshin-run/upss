@@ -17,6 +17,7 @@ class MenuNavbar extends Component {
             <div className="icon-container" onClick={this.props.onMenuToggle}>
               <img className="ex" src={ex} />
             </div>
+            <p className="hamburger-menu" onClick={this.props.onMenuToggle}>CLOSE</p>
           </div>
         </div>
       </div>

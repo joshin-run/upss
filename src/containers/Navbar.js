@@ -16,8 +16,7 @@ class Navbar extends Component {
           <NavLogo />
           <div className="hamburger-container">
             <div className="icon-container">
-              <p className="hamburger-text-icon" onClick={this.props.onMenuToggle}>&#9776;
-              </p>
+              <img className="thin-hamburger" src={hamburgerIconWhite} onClick={this.props.onMenuToggle} />
             </div>
             <p className="hamburger-menu" onClick={this.props.onMenuToggle}>MENU</p>
           </div>
