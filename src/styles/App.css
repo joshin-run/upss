@@ -155,8 +155,7 @@
     height: auto;
     width: 100vw;
     padding: 20px;
-    border-right: none;
-    border-left: none; }
+    border: none; }
     .contactUs-text-container .fieldset .form-label {
       font-size: 0.75em;
       font-family: "Source Sans Pro", sans-serif;
