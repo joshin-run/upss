@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 600px;
   width: 100vw;
   padding: 0;
   background-image: url(../images/girl-in-field.jpg);
@@ -22,7 +22,7 @@
   align-items: center;
   position: absolute;
   z-index: 5;
-  height: 100vh;
+  height: 600px;
   width: 100vw;
   background-image: linear-gradient(to bottom right, rgba(255, 255, 127, 0.8), rgba(254, 1, 154, 0.8)); }
 
@@ -60,7 +60,13 @@
   .banner-text-container p:nth-child(1) {
     font-size: 3.75rem; }
   .banner-text-container p:nth-child(2) {
-    font-size: 2.75rem; } }
+    font-size: 2.75rem; }
+
+  .banner-image {
+    height: 100vh; }
+
+  .banner-gradient {
+    height: 100vh; } }
 .bannerbutton-container {
   z-index: 5; }
 
