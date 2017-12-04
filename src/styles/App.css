@@ -1032,7 +1032,7 @@ body {
   justify-content: space-between;
   align-items: flex-end;
   width: 100vw;
-  height: 100vh;
+  height: 736px;
   position: absolute;
   top: 0;
   left: -100vw;
@@ -1077,7 +1077,7 @@ body {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: flex-end;
-  height: 100vh;
+  height: 736px;
   width: 100vw;
   z-index: 10; }
 
@@ -1093,7 +1093,7 @@ body {
   list-style-type: none;
   z-index: 10;
   cursor: pointer;
-  margin-bottom: 50px; }
+  margin-bottom: 20px; }
   .menu-items-container li {
     font-size: 1.95rem;
     text-align: center;
@@ -1160,7 +1160,13 @@ body {
   .menu-items-container {
     margin-bottom: 55px; }
     .menu-items-container li {
-      font-size: 3.5rem; } }
+      font-size: 3.5rem; }
+
+  .menu-wrapper {
+    height: 100vh; }
+
+  .menu-items-wrapper {
+    height: 100vh; } }
 .navbar-wrapper {
   display: flex;
   flex-flow: row nowrap;
