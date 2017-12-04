@@ -1,10 +1,10 @@
 .contactUs-wrapper
   display: flex
   flex-direction: column
-  flex-wrap: wrap
+  flex-wrap: nowrap
   justify-content: center
   align-items: center
-  height: 100vh
+  height: 650px
   width: 100vw
   background-image: url(../images/bryce-canyon.jpg)
   z-index: 0
@@ -16,19 +16,19 @@
 .contactUs-overlay
   display: flex
   flex-direction: column
-  flex-wrap: wrap
+  flex-wrap: nowrap
   justify-content: center
   align-items: center
   position: absolute
   z-index: 10
-  height: 100vh
+  height: 650px
   width: 100vw
   background-color: rgba(219,117,153,0.8)
 
 .contactUs-text-container
   display: flex
   flex-direction: column
-  flex-wrap: wrap
+  flex-wrap: nowrap
   justify-content: center
   align-items: center
   font-weight: lighter
@@ -56,6 +56,8 @@
     width: 100vw
     padding: 20px
     border: none
+    // background-color: blue
+    // opacity: .3
 
     .form-label
       font-size: .75em
@@ -94,41 +96,11 @@
 
 @media only screen and (min-width: 481px)
 
-  .contactUs-wrapper
-    display: flex
-    flex-direction: column
-    flex-wrap: wrap
-    justify-content: center
-    align-items: center
-    height: 85vh
-    width: 100vw
-    background-image: url(../images/bryce-canyon.jpg)
-    z-index: 0
-    background-position: center center
-    background-repeat: no-repeat
-    background-size: cover
-    color: #fff
+  // .contactUs-wrapper
 
-  .contactUs-overlay
-    display: flex
-    flex-direction: column
-    flex-wrap: wrap
-    justify-content: center
-    align-items: center
-    position: absolute
-    z-index: 10
-    height: inherit
-    width: 100vw
-    background-color: rgba(219,117,153,0.8)
+  // .contactUs-overlay
 
   .contactUs-text-container
-    display: flex
-    flex-direction: column
-    flex-wrap: wrap
-    justify-content: center
-    align-items: center
-    font-family: 'Lato', sans-serif
-    z-index: 200
     margin-bottom: 20px
 
     .contact-info
@@ -187,6 +159,9 @@
         &:hover
           background-color: rgba(255,255,255,0.2)
           color: #fff
+
+@media only screen and (min-width: 481px)
+
 
 @media only screen and (min-width: 769px)
 
