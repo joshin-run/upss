@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-import MenuNavLogo from '../components/MenuNavLogo'
-import hamburgerIconWhite from '../images/icons/hamburger-icon-thin-wh.svg'
+// import React, { Component } from 'react';
+import React from 'react';
+// import MenuNavLogo from '../components/MenuNavLogo'
+// import hamburgerIconWhite from '../images/icons/hamburger-icon-thin-wh.svg'
 import UPSSLogoSqPink from '../images/logos/upss-logo-sq-pk.png'
 
 const DarkNav = (props) => (

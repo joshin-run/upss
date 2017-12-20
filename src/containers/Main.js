@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import DarkNav from './DarkNav';
+// import DarkNav from './DarkNav';
 import Home from './Home';
 import Menu from './Menu';
 import FAQs from './FAQs';
@@ -7,8 +7,8 @@ import Procedures from './Procedures';
 import Members from './Members';
 import Footer from './Footer';
 import { Switch, Route } from 'react-router-dom';
-import { render } from 'react-dom'
-import { browserHistory, Router, Link, withRouter } from 'react-router'
+// import { render } from 'react-dom'
+// import { browserHistory, Router, Link, withRouter } from 'react-router'
 
 class Main extends Component {
   constructor(props) {

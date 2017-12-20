@@ -4,9 +4,9 @@ import ex from '../images/icons/ex-32-thin.png'
 
 class MenuNavbar extends Component {
   constructor(props) {
-    super(props),
-    console.log('MenuNavbar props:', props),
-    this.state = {}
+    super(props);
+    console.log('MenuNavbar props:', props);
+    this.state = {};
   }
   render() {
     return (
@@ -15,7 +15,7 @@ class MenuNavbar extends Component {
           <MenuNavLogo />
           <div className="hamburger-container">
             <div className="icon-container" onClick={this.props.onMenuToggle}>
-              <img className="ex" src={ex} />
+              <img className="ex" src={ex} alt="" />
             </div>
             <p className="hamburger-menu" onClick={this.props.onMenuToggle}>CLOSE</p>
           </div>

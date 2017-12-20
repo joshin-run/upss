@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import NavLogo from '../components/NavLogo'
-import hamburgerIconWhite from '../images/icons/hamburger-icon-thin-wh.svg'
+// import hamburgerIconWhite from '../images/icons/hamburger-icon-thin-wh.svg'
 
 class Navbar extends Component {
   constructor(props) {

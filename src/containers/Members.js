@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
-import exDocPic from '../images/doctors/ex_doc_pic_235x360.png'
+// import React, { Component } from 'react';
+import React from 'react';
+// import exDocPic from '../images/doctors/ex_doc_pic_235x360.png'
 import DarkNav from './DarkNav'
 
 const Members = (props) => (
@@ -44,7 +45,7 @@ const Members = (props) => (
                   (801) 773-4840
                 </p>
                 <p className="member-site">
-                  <a href="http://www.yorkyates.com" target="_blank">www.yorkyates.com</a>
+  <a href="http://www.yorkyates.com">www.yorkyates.com</a>
                 </p>
               </div>
             </div>
@@ -80,7 +81,7 @@ const Members = (props) => (
                   (801) 274-9500
                 </p>
                 <p className="member-site">
-                  <a href="http://www.saltzplasticsurgery.com" target="_blank">www.saltzplasticsurgery.com</a>
+                  <a href="http://www.saltzplasticsurgery.com">www.saltzplasticsurgery.com</a>
                 </p>
               </div>
             </div>
@@ -99,7 +100,7 @@ const Members = (props) => (
                   (801) 943-0401
                 </p>
                 <p className="member-site">
-                  <a href="http://www.jschenmd.com" target="_blank">www.jschenmd.com</a>
+                  <a href="http://www.jschenmd.com">www.jschenmd.com</a>
                 </p>
               </div>
             </div>
@@ -136,7 +137,7 @@ const Members = (props) => (
                   (801) 501-6500
                 </p>
                 <p className="member-site">
-                <a href="http://www.claytonplasticsurgery.com" target="_blank">www.claytonplasticsurgery.com</a>
+                <a href="http://www.claytonplasticsurgery.com">www.claytonplasticsurgery.com</a>
                 </p>
               </div>
             </div>
@@ -154,7 +155,7 @@ const Members = (props) => (
                   (801) 331-8554
                 </p>
                 <p className="member-site">
-                <a href="http://www.mdmarion.com" target="_blank">www.mdmarion.com</a>
+                <a href="http://www.mdmarion.com">www.mdmarion.com</a>
                 </p>
               </div>
             </div>
@@ -173,7 +174,7 @@ const Members = (props) => (
                   (801) 571-7710
                 </p>
                 <p className="member-site">
-                <a href="http://www.bryansonntag.com" target="_blank">www.bryansonntag.com</a>
+                <a href="http://www.bryansonntag.com">www.bryansonntag.com</a>
                 </p>
               </div>
             </div>
@@ -191,7 +192,7 @@ const Members = (props) => (
                   (801) 268-8838
                 </p>
                 <p className="member-site">
-                <a href="http://www.FairbanksPlasticSurgery.com" target="_blank">www.FairbanksPlasticSurgery.com</a>
+                <a href="http://www.FairbanksPlasticSurgery.com">www.FairbanksPlasticSurgery.com</a>
                 </p>
               </div>
             </div>
@@ -210,7 +211,7 @@ const Members = (props) => (
                   (801) 479-5937
                 </p>
                 <p className="member-site">
-                <a href="http://www.enhancementsurgery.com" target="_blank">www.enhancementsurgery.com</a>
+                <a href="http://www.enhancementsurgery.com">www.enhancementsurgery.com</a>
                 </p>
               </div>
             </div>
@@ -229,7 +230,7 @@ const Members = (props) => (
                   (801) 375-4646
                 </p>
                 <p className="member-site">
-                <a href="http://www.jamesclaytonmd.com" target="_blank">www.jamesclaytonmd.com</a>
+                <a href="http://www.jamesclaytonmd.com">www.jamesclaytonmd.com</a>
                 </p>
               </div>
             </div>
@@ -247,7 +248,7 @@ const Members = (props) => (
                   (801) 418-8172
                 </p>
                 <p className="member-site">
-                <a href="http://www.trentonjonesmd.com" target="_blank">www.trentonjonesmd.com</a>
+                <a href="http://www.trentonjonesmd.com">www.trentonjonesmd.com</a>
                 </p>
               </div>
             </div>
@@ -284,7 +285,7 @@ const Members = (props) => (
                   (801) 268-8838
                 </p>
                 <p className="member-site">
-                  <a href="http://www.FairbanksPlasticSurgery.com" target="_blank">www.FairbanksPlasticSurgery.com</a>
+                  <a href="http://www.FairbanksPlasticSurgery.com">www.FairbanksPlasticSurgery.com</a>
                 </p>
               </div>
             </div>
@@ -302,7 +303,7 @@ const Members = (props) => (
                   (801) 785-8825
                 </p>
                 <p className="member-site">
-                  <a href="http://www.croftsmd.com" target="_blank">www.croftsmd.com</a>
+                  <a href="http://www.croftsmd.com">www.croftsmd.com</a>
                 </p>
               </div>
             </div>
@@ -321,7 +322,7 @@ const Members = (props) => (
                   (801) 295-6554
                 </p>
                 <p className="member-site">
-                  <a href="http://www.sellersplasticsurgery.com" target="_blank">www.sellersplasticsurgery.com</a>
+                  <a href="http://www.sellersplasticsurgery.com">www.sellersplasticsurgery.com</a>
                 </p>
               </div>
             </div>
@@ -378,7 +379,7 @@ const Members = (props) => (
                   (801) 779-0700
                 </p>
                 <p className="member-site">
-                  <a href="http://www.ashbyplasticsurgery.com" target="_blank">www.ashbyplasticsurgery.com</a>
+                  <a href="http://www.ashbyplasticsurgery.com">www.ashbyplasticsurgery.com</a>
                 </p>
               </div>
             </div>
@@ -397,7 +398,7 @@ const Members = (props) => (
                   (801) 295-9105
                 </p>
                 <p className="member-site">
-                  <a href="http://www.drkjar.com" target="_blank">www.drkjar.com</a>
+                  <a href="http://www.drkjar.com">www.drkjar.com</a>
                 </p>
               </div>
             </div>
@@ -416,7 +417,7 @@ const Members = (props) => (
                   (801) 293-8100
                 </p>
                 <p className="member-site">
-                  <a href="http://www.utahcosmeticsurgery.com" target="_blank">www.utahcosmeticsurgery.com</a>
+                  <a href="http://www.utahcosmeticsurgery.com">www.utahcosmeticsurgery.com</a>
                 </p>
               </div>
             </div>
@@ -434,7 +435,7 @@ const Members = (props) => (
                   (801) 298-9774
                 </p>
         <p className="member-site">
-                  <a href="http://www.womanplasticsurgeon.com" target="_blank">www.womanplasticsurgeon.com</a>
+                  <a href="http://www.womanplasticsurgeon.com">www.womanplasticsurgeon.com</a>
                 </p>
               </div>
             </div>
@@ -453,7 +454,7 @@ const Members = (props) => (
                   (801) 479-5722
                 </p>
                 <p className="member-site">
-                  <a href="http://www.brzowski.com" target="_blank">www.brzowski.com</a>
+                  <a href="http://www.brzowski.com">www.brzowski.com</a>
                 </p>
               </div>
             </div>
@@ -488,7 +489,7 @@ const Members = (props) => (
                   (801) 316-1313
                 </p>
                 <p className="member-site">
-                  <a href="http://www.jbindrupmd.com" target="_blank">www.jbindrupmd.com</a>
+                  <a href="http://www.jbindrupmd.com">www.jbindrupmd.com</a>
                 </p>
               </div>
             </div>
@@ -556,7 +557,7 @@ const Members = (props) => (
                   (801) 278-9062
                 </p>
                 <p className="member-site">
-                  <a href="http://md@angelakeen.com" target="_blank">md@angelakeen.com</a>
+                  <a href="http://md@angelakeen.com">md@angelakeen.com</a>
                 </p>
               </div>
             </div>

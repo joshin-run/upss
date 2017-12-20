@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+// import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import DarkNav from './DarkNav'
 import WhatIsPS from '../components/FAQ-Content/WhatIsPS'

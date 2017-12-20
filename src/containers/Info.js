@@ -4,7 +4,7 @@ import UPSSLogoSqPink from '../images/logos/upss-logo-sq-pk.png'
 import toonDoc from '../images/toon-doc.svg'
 import aspsLogo from '../images/logos/ASPS_logo_300dpi.jpg'
 import docComputer from '../images/doc-computer.png'
-import redCheckmark from '../images/icons/red-checkmark.svg'
+// import redCheckmark from '../images/icons/red-checkmark.svg'
 
 class Info extends Component {
   render() {
@@ -15,7 +15,7 @@ class Info extends Component {
         Our Mission
         </p>
         <div className="our-mission-container">
-          <img className="steth-heart" src={stethHeart} />
+          <img className="steth-heart" src={stethHeart} alt="" />
           <div className="our-mission-content">
             <img className="upss-logo-pink"  src={UPSSLogoSqPink} alt="UPSS" />
             <ul className="our-mission-text">
@@ -43,9 +43,9 @@ class Info extends Component {
           Plastic Surgeons
           </p>
           <div className="asps-container">
-            <img className="doc-computer" src={docComputer} />
+            <img className="doc-computer" src={docComputer} alt="" />
             <div className="asps-content">
-              <img className="asps-logo" src={aspsLogo} alt="ASPS Logo" />
+              <img className="asps-logo" src={aspsLogo} alt="ASPS Logo"/>
               <div className="">
                 <p>Only a board certified plastic surgeons will provide the medical expertise you deserve.</p><br />
                 <p>Learn more about the <a href="https://www.plasticsurgery.org/"><span className="link">American Society of Plastic Surgeons</span></a></p><br />

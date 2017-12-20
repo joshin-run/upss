@@ -34,7 +34,7 @@ class FeaturedMembers extends Component {
 
         <div className="featured-members-card-container">
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={YorkYates} />
+            <img className="featured-member-pic" href="" src={YorkYates} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 York Yates, M.D.
@@ -47,12 +47,12 @@ class FeaturedMembers extends Component {
                 (801) 773-4840
               </p>
               <p className="featured-member-site">
-                <a href="http://www.yorkyates.com" target="_blank">www.yorkyates.com</a>
+                <a href="http://www.yorkyates.com">www.yorkyates.com</a>
               </p>
             </div>
           </div>
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={LeeMalan} />
+            <img className="featured-member-pic" href="" src={LeeMalan} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 Lee J. Malan, M.D.
@@ -70,7 +70,7 @@ class FeaturedMembers extends Component {
             </div>
           </div>
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={RenatoSaltz} />
+            <img className="featured-member-pic" href="" src={RenatoSaltz} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 Renato Saltz, M.D.
@@ -83,12 +83,12 @@ class FeaturedMembers extends Component {
                 (801) 274-9500
               </p>
               <p className="featured-member-site">
-                <a href="http://www.saltzplasticsurgery.com" target="_blank">www.saltzplasticsurgery.com</a>
+                <a href="http://www.saltzplasticsurgery.com">www.saltzplasticsurgery.com</a>
               </p>
             </div>
           </div>
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={JuneChen} />
+            <img className="featured-member-pic" href="" src={JuneChen} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 June S. Chen, M.D.
@@ -102,12 +102,12 @@ class FeaturedMembers extends Component {
                 (801) 943-0401
               </p>
               <p className="featured-member-site">
-                <a href="http://www.jschenmd.com" target="_blank">www.jschenmd.com</a>
+                <a href="http://www.jschenmd.com">www.jschenmd.com</a>
               </p>
             </div>
           </div>
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={ScottLindley} />
+            <img className="featured-member-pic" href="" src={ScottLindley} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 T. Scott Lindley, M.D.
@@ -125,7 +125,7 @@ class FeaturedMembers extends Component {
             </div>
           </div>
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={DavidClayton} />
+            <img className="featured-member-pic" href="" src={DavidClayton} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 David N. Clayton, M.D.
@@ -139,12 +139,12 @@ class FeaturedMembers extends Component {
                 (801) 501-6500
               </p>
               <p className="featured-member-site">
-              <a href="http://www.claytonplasticsurgery.com" target="_blank">www.claytonplasticsurgery.com</a>
+              <a href="http://www.claytonplasticsurgery.com">www.claytonplasticsurgery.com</a>
               </p>
             </div>
           </div>
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={MichaelMarion} />
+            <img className="featured-member-pic" href="" src={MichaelMarion} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 Michael D. Marion, M.D.
@@ -157,12 +157,12 @@ class FeaturedMembers extends Component {
                 (801) 331-8554
               </p>
               <p className="featured-member-site">
-              <a href="http://www.mdmarion.com" target="_blank">www.mdmarion.com</a>
+              <a href="http://www.mdmarion.com">www.mdmarion.com</a>
               </p>
             </div>
           </div>
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={BryanSonntag} />
+            <img className="featured-member-pic" href="" src={BryanSonntag} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 Bryan V. Sonntag, M.D.
@@ -176,12 +176,12 @@ class FeaturedMembers extends Component {
                 (801) 571-7710
               </p>
               <p className="featured-member-site">
-              <a href="http://www.bryansonntag.com" target="_blank">www.bryansonntag.com</a>
+              <a href="http://www.bryansonntag.com">www.bryansonntag.com</a>
               </p>
             </div>
           </div>
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={GrantAFairbanks} />
+            <img className="featured-member-pic" href="" src={GrantAFairbanks} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 Grant A. Fairbanks, M.D.
@@ -194,12 +194,12 @@ class FeaturedMembers extends Component {
                 (801) 268-8838
               </p>
               <p className="featured-member-site">
-              <a href="http://www.FairbanksPlasticSurgery.com" target="_blank">www.FairbanksPlasticSurgery.com</a>
+              <a href="http://www.FairbanksPlasticSurgery.com">www.FairbanksPlasticSurgery.com</a>
               </p>
             </div>
           </div>
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={StephanRalston} />
+            <img className="featured-member-pic" href="" src={StephanRalston} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 Stephan L. Ralston, M.D.
@@ -213,12 +213,12 @@ class FeaturedMembers extends Component {
                 (801) 479-5937
               </p>
               <p className="featured-member-site">
-              <a href="http://www.enhancementsurgery.com" target="_blank">www.enhancementsurgery.com</a>
+              <a href="http://www.enhancementsurgery.com">www.enhancementsurgery.com</a>
               </p>
             </div>
           </div>
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={JamesClayton} />
+            <img className="featured-member-pic" href="" src={JamesClayton} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 Stephan L. Ralston, M.D.
@@ -232,12 +232,12 @@ class FeaturedMembers extends Component {
                 (801) 375-4646
               </p>
               <p className="featured-member-site">
-              <a href="http://www.jamesclaytonmd.com" target="_blank">www.jamesclaytonmd.com</a>
+              <a href="http://www.jamesclaytonmd.com">www.jamesclaytonmd.com</a>
               </p>
             </div>
           </div>
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={TrentonJones} />
+            <img className="featured-member-pic" href="" src={TrentonJones} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 Trenton Jones, M.D.
@@ -250,12 +250,12 @@ class FeaturedMembers extends Component {
                 (801) 418-8172
               </p>
               <p className="featured-member-site">
-              <a href="http://www.trentonjonesmd.com" target="_blank">www.trentonjonesmd.com</a>
+              <a href="http://www.trentonjonesmd.com">www.trentonjonesmd.com</a>
               </p>
             </div>
           </div>
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={JasonHancey} />
+            <img className="featured-member-pic" href="" src={JasonHancey} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 Jason Hancey, M.D.
@@ -274,7 +274,7 @@ class FeaturedMembers extends Component {
             </div>
           </div>
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={GrantRFairbanks} />
+            <img className="featured-member-pic" href="" src={GrantRFairbanks} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 Grant R. Fairbanks, M.D.
@@ -287,12 +287,12 @@ class FeaturedMembers extends Component {
                 (801) 268-8838
               </p>
               <p className="featured-member-site">
-                <a href="http://www.FairbanksPlasticSurgery.com" target="_blank">www.FairbanksPlasticSurgery.com</a>
+                <a href="http://www.FairbanksPlasticSurgery.com">www.FairbanksPlasticSurgery.com</a>
               </p>
             </div>
           </div>
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={KimballCrofts} />
+            <img className="featured-member-pic" href="" src={KimballCrofts} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 Kimball M. Crofts, M.D.
@@ -305,12 +305,12 @@ class FeaturedMembers extends Component {
                 (801) 785-8825
               </p>
               <p className="featured-member-site">
-                <a href="http://www.croftsmd.com" target="_blank">www.croftsmd.com</a>
+                <a href="http://www.croftsmd.com">www.croftsmd.com</a>
               </p>
             </div>
           </div>
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={DanielSellers} />
+            <img className="featured-member-pic" href="" src={DanielSellers} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 Daniel Sellers, M.D.
@@ -324,12 +324,12 @@ class FeaturedMembers extends Component {
                 (801) 295-6554
               </p>
               <p className="featured-member-site">
-                <a href="http://www.sellersplasticsurgery.com" target="_blank">www.sellersplasticsurgery.com</a>
+                <a href="http://www.sellersplasticsurgery.com">www.sellersplasticsurgery.com</a>
               </p>
             </div>
           </div>
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={BradfordRockwell} />
+            <img className="featured-member-pic" href="" src={BradfordRockwell} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 W. Bradford Rockwell, M.D.
@@ -348,7 +348,7 @@ class FeaturedMembers extends Component {
             </div>
           </div>
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={DavidThomas} />
+            <img className="featured-member-pic" href="" src={DavidThomas} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 David S. Thomas, M.D.
@@ -367,7 +367,7 @@ class FeaturedMembers extends Component {
             </div>
           </div>
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={EricAshby} />
+            <img className="featured-member-pic" href="" src={EricAshby} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 Eric Ashby, M.D.
@@ -381,12 +381,12 @@ class FeaturedMembers extends Component {
                 (801) 779-0700
               </p>
               <p className="featured-member-site">
-                <a href="http://www.ashbyplasticsurgery.com" target="_blank">www.ashbyplasticsurgery.com</a>
+                <a href="http://www.ashbyplasticsurgery.com">www.ashbyplasticsurgery.com</a>
               </p>
             </div>
           </div>
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={GregoryKjar} />
+            <img className="featured-member-pic" href="" src={GregoryKjar} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 Gregory Kjar, M.D.
@@ -400,12 +400,12 @@ class FeaturedMembers extends Component {
                 (801) 295-9105
               </p>
               <p className="featured-member-site">
-                <a href="http://www.drkjar.com" target="_blank">www.drkjar.com</a>
+                <a href="http://www.drkjar.com">www.drkjar.com</a>
               </p>
             </div>
           </div>
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={ScottHaupt} />
+            <img className="featured-member-pic" href="" src={ScottHaupt} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 R. Scott Haupt, M.D.
@@ -419,12 +419,12 @@ class FeaturedMembers extends Component {
                 (801) 293-8100
               </p>
               <p className="featured-member-site">
-                <a href="http://www.utahcosmeticsurgery.com" target="_blank">www.utahcosmeticsurgery.com</a>
+                <a href="http://www.utahcosmeticsurgery.com">www.utahcosmeticsurgery.com</a>
               </p>
             </div>
           </div>
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={ChristineCheng} />
+            <img className="featured-member-pic" href="" src={ChristineCheng} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 Christine A. Cheng, M.D.
@@ -437,12 +437,12 @@ class FeaturedMembers extends Component {
                 (801) 298-9774
               </p>
               <p className="featured-member-site">
-                <a href="http://www.womanplasticsurgeon.com" target="_blank">www.womanplasticsurgeon.com</a>
+                <a href="http://www.womanplasticsurgeon.com">www.womanplasticsurgeon.com</a>
               </p>
             </div>
           </div>
           <div className="featured-member-card">
-            <img className="featured-member-pic" href="" src={BrianBrzowski} />
+            <img className="featured-member-pic" href="" src={BrianBrzowski} alt=""/>
             <div className="contact-info-container">
               <p className="featured-member-name">
                 Brian K. Brzowski, M.D.
@@ -456,7 +456,7 @@ class FeaturedMembers extends Component {
                 (801) 479-5722
               </p>
               <p className="featured-member-site">
-                <a href="http://www.brzowski.com" target="_blank">www.brzowski.com</a>
+                <a href="http://www.brzowski.com">www.brzowski.com</a>
               </p>
             </div>
           </div>

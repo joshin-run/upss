@@ -4,9 +4,9 @@ import BannerButton from '../components/BannerButton'
 
 class Banner extends Component {
   constructor(props) {
-    super(props),
-    console.log('Banner props:', props),
-    this.state = {}
+    super(props);
+    console.log('Banner props:', props);
+    this.state = {};
   }
 
   render() {
